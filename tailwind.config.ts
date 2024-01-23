@@ -15,14 +15,19 @@ module.exports = {
       colors: {
         primary: '#2B2C35',
         blue: {
+          50:'#BAB0E8',
           100: '#240064',
           200: '#5a00f0',
+          300:'#5A00F0',
+        },
+        neutral:{
+          100:"#F1F0F4",
         }
 
       },
       container: {
         center: true,
-        padding: "1.5rem",
+        padding: "6rem",
     }
     },
   },
