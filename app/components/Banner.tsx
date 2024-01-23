@@ -3,7 +3,7 @@ import React from 'react'
 function Banner() {
     return (
         <div>
-            <div id="sticky-banner" tabindex="-1" className="fixed top-0 start-0 z-50 flex justify-between w-full p-4 border-0 bg-blue-300 dark:bg-gray-700 dark:border-gray-600">
+            <div id="sticky-banner"  className="fixed top-0 start-0 z-50 flex justify-between w-full p-4 border-0 bg-blue-300 dark:bg-gray-700 dark:border-gray-600">
                 <div className="flex items-center mx-auto">
                     <p className="flex items-center text-sm font-normal text-gray-500 dark:text-gray-400">
                         <span className="inline-flex p-1 me-3 bg-white rounded-full dark:bg-gray-600 w-6 h-6 items-center justify-center flex-shrink-0">
