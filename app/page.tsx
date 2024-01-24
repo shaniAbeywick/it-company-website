@@ -6,19 +6,26 @@ import Banner from "./components/Banner";
 import Services from "./components/Services";
 import WhyChooseUs from "./components/WhyChooseUs";
 import Nav from "./components/Nav";
+import RecentWorks from "./components/RecentWorks";
+import Testimonial from "./components/Testimonial";
+import Slider from "./components/Slider";
+
 
 
 
 
 export default function Home() {
   return (
+    
     <main className="overflow-hidden">
-      <Banner/>
-       <Nav/>
-       <Hero/>
-       <Services/>
-       <WhyChooseUs/>
-      
-    </main>
+        <Banner />
+        <Nav />
+        <Hero />
+        <Services />
+        <WhyChooseUs />
+        <RecentWorks />
+        
+
+      </main>
   );
 }

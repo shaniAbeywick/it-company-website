@@ -4,40 +4,81 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "~owl.carousel/dist/assets/owl.carousel.css";
+@import "~owl.carousel/dist/assets/owl.theme.default.css";
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Manrope", sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Manrope", sans-serif;
 }
 
 
 
 @keyframes scroll {
-	0% { transform: translateX(0); }
-	100% { transform: translateX(calc(-250px * 7))}
+	0% {
+		transform: translateX(0);
+	}
+
+	100% {
+		transform: translateX(calc(-250px * 7))
+	}
 }
 
 .slider {
 	height: 100px;
 	margin: auto;
-	overflow:hidden;
+	overflow: hidden;
 	position: relative;
 	width: auto;
-	
+
 	.slide-track {
 		animation: scroll 40s linear infinite;
 		display: flex;
 		width: calc(250px * 14);
 	}
+
 	.slide {
 		height: 100px;
 		width: 250px;
 	}
 }
-.hero-title{
-  line-height: 60px !important;
+
+.hero-title {
+	line-height: 60px !important;
 }
-.hero-descript{
-  line-height: 30px !important;
+
+.hero-descript {
+	line-height: 30px !important;
 }
+
+.recentWorksCard {
+	min-height: 30rem !important;
+	max-height: 30rem !important;
+
+}
+.recentWorkImg{
+	top: 0;
+	width: 100%;
+	height: auto;
+	z-index: 0;
+    margin:0;
+    padding:0;
+	-webkit-transition: top 11s;
+	-moz-transition: top 11s;
+	-ms-transition: top 11s;
+	-o-transition: top 11s;
+	transition: bottom 11s;
+
+}
+.recentWorksCard:hover .recentWorkImg{
+	 top: -1240px;
+	-webkit-transition: all 11s;
+  -moz-transition: all 11s;
+  -ms-transition: all 11s;
+  -o-transition: all 11s;
+  transition: all 11s;
+}
+
+
+

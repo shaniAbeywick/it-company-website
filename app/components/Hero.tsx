@@ -4,8 +4,8 @@ import Image from 'next/image'
 const Hero = () => {
   return (
     <div className="bg-blue-100 bg-[url('/images/backgroundImg.png')]">
-      <div className="md:container">
-        <div className="grid grid-cols-2 px-4 pt-4">
+      <div className="lg:container p-10">
+        <div className="grid lg:grid-cols-2 grid-cols-1 lg:px-4 pt-4">
           <div className='flex flex-col justify-center gap-6'>
             <h3 className='sm:text-5xl text-3xl font-bold text-white sm:hero-title'>Lorem ipsum dolor sit amet consectetur! </h3>
             <p className="text-white sm:text-base text-sm font-normal hero-descript">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque quod porro consectetur illo fugiat, ratione error. Nobis facere vel debitis repudiandae maiores, voluptatibus suscipit ipsam, sequi neque tempora quis at.</p>

@@ -3,7 +3,7 @@ import React from 'react'
 function WhyChooseUs() {
     return (
         <div className='bg-blue-100' id="WhyChooseUs">
-            <div className='md:container py-8'>
+            <div className='lg:container p-10 pt-28'>
                 <h3 className='sm:text-5xl text-3xl font-bold text-center text-white mb-16'>
                     Why Choose Us?
                 </h3>
