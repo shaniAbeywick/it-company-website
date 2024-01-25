@@ -22,7 +22,8 @@ module.exports = {
         },
         neutral:{
           100:"#F1F0F4",
-        }
+        },
+
 
       },
       container: {
