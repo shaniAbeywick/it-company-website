@@ -4,7 +4,7 @@ import Image from 'next/image'
 function RecentWorks() {
     return (
         <div className='bg-neutral-100' id='Service'>
-            <div className='lg:container p-10 pt-28'>
+            <div className='lg:container p-10 py-28'>
 
                 <h3 className='sm:text-5xl text-3xl font-bold text-center text-black'>
                     Our Most Recent Work

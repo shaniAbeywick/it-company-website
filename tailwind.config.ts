@@ -23,7 +23,9 @@ module.exports = {
         neutral:{
           100:"#F1F0F4",
         },
-
+        red:{
+          100:"#ff2d46",
+        }
 
       },
       container: {

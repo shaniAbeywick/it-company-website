@@ -8,6 +8,7 @@ import Services from "./components/Services";
 import WhyChooseUs from "./components/WhyChooseUs";
 import RecentWorks from "./components/RecentWorks";
 import Testimonial from "./components/Testimonial";
+import InstaFeed from "./components/InstaFeed";
 
 
 
@@ -18,10 +19,12 @@ export default function Home() {
         <Banner />
         <Nav />
         <Hero />
+        <LogoSlider/>
         <Services />
         <WhyChooseUs />
         <RecentWorks />
         <Testimonial/>
+        <InstaFeed/>
         
 
       </main>

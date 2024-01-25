@@ -80,5 +80,46 @@
   transition: all 11s;
 }
 
+.overlay {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0);
+	transition: background 0.5s ease;
+  }
+  .service-card:hover .overlay {
+	display: flex;
+	background: rgba(0, 0, 0, .3);
+  }
+  .service-card:hover .seeMoreBtn {
+	opacity: 1;
+  }
+  .overlay-insta {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0);
+	transition: background 0.5s ease;
+  }
+  .insta-card:hover .overlay-insta {
+	display: flex;
+	background: rgba(0, 0, 0, .65);
+  }
+  .insta-card:hover .instaImg {
+	opacity: 1;
+  }
+  
+  .swiper{
+	height: 400px !important;
 
+  }
+  .swiper-pagination-bullet{
+	width:12px !important;
+	height:12px !important;
+  }
+  .swiper-pagination-bullet-active{
+	background-color:#222 !important;
 
+  }
