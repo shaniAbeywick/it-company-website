@@ -1,9 +1,20 @@
 /** @type {import('next').NextConfig} */
+import webpack from "webpack";
+
 const nextConfig = {
-    images: {
-        domains: ['assets-global.website-files.com'],
-      },
-      
+  webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
+    config.plugins.push(
+      new webpack.ProvidePlugin({
+        $: "jquery",
+        jQuery: "jquery",
+        "window.jQuery": "jquery",
+      })
+    );
+    return config;
+  },
+  images: {
+    domains: ['assets-global.website-files.com'],
+  }
 };
 
 export default nextConfig;
