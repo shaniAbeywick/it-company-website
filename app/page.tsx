@@ -9,6 +9,8 @@ import WhyChooseUs from "./components/WhyChooseUs";
 import RecentWorks from "./components/RecentWorks";
 import Testimonial from "./components/Testimonial";
 import InstaFeed from "./components/InstaFeed";
+import Footer from "./components/Footer";
+
 
 
 
@@ -19,11 +21,13 @@ export default function Home() {
         <Banner />
         <Nav />
         <Hero />
+        <LogoSlider/>
         <Services />
         <WhyChooseUs />
         <RecentWorks />
         <Testimonial/>
         <InstaFeed/>
+        <Footer/>
         
 
       </main>

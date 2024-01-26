@@ -123,3 +123,23 @@
 	background-color:#222 !important;
 
   }
+
+  .slider {
+	height: auto;
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+	width: auto;
+
+	.slide-track {
+		animation: scroll 40s linear infinite;
+		display: flex;
+		width: calc(250px * 14);
+	}
+
+	.slide {
+		height: auto;
+		width: 340px;
+		margin:auto;
+	}
+}
