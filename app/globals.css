@@ -124,7 +124,7 @@
 
   }
 
-  .slider {
+  .slider-testimonial {
 	height: auto;
 	margin: auto;
 	overflow: hidden;
@@ -137,9 +137,28 @@
 		width: calc(250px * 14);
 	}
 
-	.slide {
+	.slide-testimonial {
 		height: auto;
-		width: 340px;
-		margin:auto;
+		width: auto;
+		margin:2px;
+	}
+}
+.slider-insta {
+	height: auto;
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+	width: auto;
+
+	.slide-track {
+		animation: scroll 40s linear infinite;
+		display: flex;
+		width: calc(250px * 14);
+	}
+
+	.slide-insta {
+		height: auto;
+		width: 280px;
+		margin: auto;
 	}
 }
