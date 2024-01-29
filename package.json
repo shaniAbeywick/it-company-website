@@ -10,12 +10,14 @@
   },
   "dependencies": {
     "@splidejs/react-splide": "^0.7.12",
+    "@types/react-google-recaptcha": "^2.1.9",
     "flowbite": "^2.2.1",
     "flowbite-react": "^0.7.2",
     "jquery": "^3.7.1",
     "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18",
+    "react-google-recaptcha": "^3.1.0",
     "react-owl-carousel": "^2.3.3",
     "splide-nextjs": "^2.4.23",
     "swiper": "^11.0.5"

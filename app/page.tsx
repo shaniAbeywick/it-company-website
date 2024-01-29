@@ -10,14 +10,19 @@ import RecentWorks from "./components/RecentWorks";
 import Testimonial from "./components/Testimonial";
 import InstaFeed from "./components/InstaFeed";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact";
+
 
 
 
 
 export default function Home() {
+ 
   return (
     
+    
     <main className="overflow-hidden">
+      
         <Banner />
         <Nav />
         <Hero />
@@ -27,9 +32,9 @@ export default function Home() {
         <RecentWorks />
         <Testimonial/>
         <InstaFeed/>
+        <Contact/>
         <Footer/>
         
-
       </main>
   );
 }

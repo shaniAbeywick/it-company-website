@@ -30,10 +30,10 @@ function Nav() {
                         <div className="hidden w-full lg:block lg:w-auto" id="navbar-default">
                             <ul className="font-medium flex flex-col justify-center items-baseline p-4 lg:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 lg:flex-row lg:space-x-8 rtl:space-x-reverse lg:mt-0 lg:border-0 lg:bg-blue-100 dark:bg-gray-800 lg:dark:bg-gray-900 dark:border-gray-700">
                                 <li>
-                                    <a href="#" className="block py-2 px-3 text-white text-base bg-blue-700 rounded lg:bg-transparent lg:text-blue-700 lg:p-0 dark:text-white lg:dark:text-blue-500" aria-current="page">Home</a>
+                                    <a href="/" className="block py-2 px-3 text-white text-base lg:hover:text-blue-700 active:text-blue-700 bg-blue-700 rounded lg:bg-transparent lg:p-0 dark:text-white lg:dark:text-blue-500">Home</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="block py-2 px-3 text-white text-base rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-white lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent">About</a>
+                                    <a href="/about" className="block py-2 px-3 text-white text-base rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 active:text-blue-700 focus:text-blue-700 lg:p-0 dark:text-white lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent">About</a>
                                 </li>
                                 <li>
                                     <a href="#Service" className="block py-2 px-3 text-white text-base rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-white lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent">Service</a>
