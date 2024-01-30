@@ -12,9 +12,14 @@ function ServiceContent() {
 
       </div>
       <div className='grid grid-cols-1'>
-        <div className='flex'>
-
-          <Image src="/images/service_back_Img_1.jpg" alt='serviceImg' width={960} height={540} className="flex-1 lg:block hidden" />
+        <div className='flex flex-row'>
+          <div className='flex-1 lg:block hidden'>
+          <Image src="/images/service_back_Img_1.jpg" alt='serviceImg' width={960} height={540} className="w-full h-full" />
+          </div>
+          
+         
+         
+          
 
 
           <div className="py-20 bg-orange-300 border-0 rounded-0 shadow-none dark:bg-gray-800 dark:border-gray-700 flex-1">
@@ -52,7 +57,7 @@ function ServiceContent() {
             </a>
           </div>
         </div>
-        <div className='flex'>
+        <div className='flex flex-row'>
           <div className="py-20 bg-white border-0 rounded-0 shadow-none dark:bg-gray-800 dark:border-gray-700 flex-1">
             <h1 className='text-5xl text-black-100 font-extrabold mx-20'>Performance Marketing</h1>
             <h3 className='text-xl text-black-100 text-opacity-75 font-semibold my-4 mx-20'>Utilising data driven tactics to deliver high return on investment from your performance marketing budget.</h3>
@@ -84,11 +89,14 @@ function ServiceContent() {
 
             </a>
           </div>
-          <Image src="/images/service_back_Img_2.jpg" alt='serviceImg' width={960} height={540} className="flex-1 lg:block hidden" />
+          <div className='flex-1 lg:block hidden'>
+          <Image src="/images/service_back_Img_2.jpg" alt='serviceImg' width={960} height={540} className="w-full h-full" />
+          </div>
         </div>
-        <div className='flex'>
-
-          <Image src="/images/service_back_Img_3.jpg" alt='serviceImg' width={960} height={540} className="flex-1 lg:block hidden" />
+        <div className='flex flex-row'>
+           <div className='flex-1 lg:block hidden'>
+          <Image src="/images/service_back_Img_3.jpg" alt='serviceImg' width={960} height={540} className="w-full h-full" />
+          </div>
 
 
           <div className="py-20 bg-orange-300 border-0 rounded-0 shadow-none dark:bg-gray-800 dark:border-gray-700 flex-1">
@@ -114,7 +122,7 @@ function ServiceContent() {
             </a>
           </div>
         </div>
-        <div className='flex'>
+        <div className='flex flex-row'>
           <div className="py-20 bg-white border-0 rounded-0 shadow-none dark:bg-gray-800 dark:border-gray-700 flex-1">
             <h1 className='text-5xl text-black-100 font-extrabold mx-20'>Performance Marketing</h1>
             <h3 className='text-xl text-black-100 text-opacity-75 font-semibold my-4 mx-20'>Utilising data driven tactics to deliver high return on investment from your performance marketing budget.</h3>
@@ -137,12 +145,14 @@ function ServiceContent() {
 
             </a>
           </div>
-          <Image src="/images/service_back_Img_4.jpg" alt='serviceImg' width={960} height={540} className="flex-1 lg:block hidden" />
+          <div className='flex-1 lg:block hidden'>
+          <Image src="/images/service_back_Img_4.jpg" alt='serviceImg' width={960} height={540} className="w-full h-full" />
+          </div>
         </div>
-        <div className='flex'>
-
-          <Image src="/images/service_back_Img_5.jpg" alt='serviceImg' width={960} height={540} className="flex-1 lg:block hidden" />
-
+        <div className='flex flex-row'>
+        <div className='flex-1 lg:block hidden'>
+          <Image src="/images/service_back_Img_5.jpg" alt='serviceImg' width={960} height={540} className="w-full h-full " />
+          </div>
 
           <div className="py-20 bg-orange-300 border-0 rounded-0 shadow-none dark:bg-gray-800 dark:border-gray-700 flex-1">
             <h1 className='text-5xl text-black-100 font-extrabold mx-20'>Performance Marketing</h1>
