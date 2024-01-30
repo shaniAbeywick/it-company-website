@@ -11,8 +11,8 @@ function Contact() {
         <div className="bg-blue-600">
             <div className="lg:container p-10 py-28">
                 <div className="flex flex-col justify-center items-center">
-                    <h1 className='text-6xl text-white text-center font-bold'>Get in Touch</h1>
-                    <h2 className='text-2xl text-white text-center font-medium text-opacity-65 mt-3 mb-6'>If you have any questions, we’re here to help!</h2>
+                    <h1 className='lg:text-6xl text-4xl text-white text-center font-bold'>Get in Touch</h1>
+                    <h2 className='lg:text-2xl text-xl text-white text-center font-medium text-opacity-65 mt-3 mb-6'>If you have any questions, we’re here to help!</h2>
                     <button type="button" data-modal-target="default-modal" data-modal-toggle="default-modal" className="text-white bg-blue-800 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-md text-xl px-5 py-4 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Send us a Message</button>
                     {/* Main modal */}
                     <div id="default-modal" aria-hidden="true" className="hidden bg-black-100 bg-opacity-80 overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
