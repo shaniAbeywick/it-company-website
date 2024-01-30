@@ -162,3 +162,7 @@
 		margin: auto;
 	}
 }
+ul li::marker{
+	height:30px !important;
+
+}

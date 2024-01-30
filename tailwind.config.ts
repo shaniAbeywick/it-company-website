@@ -32,7 +32,10 @@ module.exports = {
         },
         black:{
           100:"#1e222f"
-        }
+        },
+        orange:{
+          300:"#FEF1E6",
+        },
 
       },
       container: {
