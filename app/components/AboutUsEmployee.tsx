@@ -19,7 +19,7 @@ function AboutUsEmployee() {
                 <div className='lg:container py-20 p-10'>
                     <div className="grid lg:grid-cols-2 grid-cols-1 gap-8">
                         <div className="flex md:flex-row flex-col gap-8 items-center">
-                        <Image src="/images/user1.jpg" alt='empolyeeImg' width={300} height={200}/>
+                        <Image src="/images/Picture1.jpg" alt='empolyeeImg' width={300} height={200}/>
                         <div className="flex flex-col">
                             <h2 className='text-neutral-200 text-lg font-bold'>Brennan Morrison</h2>
                             <h3 className='text-neutral-200 text-sm font-light italic mt-2'>Founder, CEO & Lead Designer</h3>
@@ -30,7 +30,7 @@ function AboutUsEmployee() {
 
                         </div>
                         <div className="flex md:flex-row flex-col gap-8 items-center">
-                        <Image src="/images/user2.jpg" alt='empolyeeImg' width={300} height={200}/>
+                        <Image src="/images/Picture2.png" alt='empolyeeImg' width={300} height={200}/>
                         <div className="flex flex-col">
                             <h2 className='text-neutral-200 text-lg font-bold'>Brennan Morrison</h2>
                             <h3 className='text-neutral-200 text-sm font-light italic mt-2'>Founder, CEO & Lead Designer</h3>
@@ -41,7 +41,7 @@ function AboutUsEmployee() {
 
                         </div>
                         <div className="flex md:flex-row flex-col gap-8 items-center">
-                        <Image src="/images/user3.jpg" alt='empolyeeImg' width={300} height={200}/>
+                        <Image src="/images/Picture3.jpg" alt='empolyeeImg' width={300} height={200}/>
                         <div className="flex flex-col">
                             <h2 className='text-neutral-200 text-lg font-bold'>Brennan Morrison</h2>
                             <h3 className='text-neutral-200 text-sm font-light italic mt-2'>Founder, CEO & Lead Designer</h3>
@@ -52,7 +52,7 @@ function AboutUsEmployee() {
 
                         </div>
                         <div className="flex md:flex-row flex-col gap-8 items-center">
-                        <Image src="/images/user4.jpg" alt='empolyeeImg' width={300} height={200}/>
+                        <Image src="/images/Picture4.jpg" alt='empolyeeImg' width={300} height={200}/>
                         <div className="flex flex-col">
                             <h2 className='text-neutral-200 text-lg font-bold'>Brennan Morrison</h2>
                             <h3 className='text-neutral-200 text-sm font-light italic mt-2'>Founder, CEO & Lead Designer</h3>
