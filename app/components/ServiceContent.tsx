@@ -19,7 +19,7 @@ function ServiceContent() {
           <div className="py-20 bg-orange-300 border-0 rounded-0 shadow-none dark:bg-gray-800 dark:border-gray-700 flex-1 px-4 lg:px-0">
             <h1 className='lg:text-5xl text-4xl text-black-100 font-extrabold lg:mx-20'>Performance Marketing</h1>
             <h3 className='lg:text-xl text-lg text-black-100 text-opacity-75 font-semibold my-4 lg:mx-20'>Utilising data driven tactics to deliver high return on investment from your performance marketing budget.</h3>
-            <ul className="space-y-2 text-gray-600 list-disc list-inside dark:text-gray-400 lg:text-lg text-base font-normal lg:mx-20">
+            <ul className="space-y-2 text-gray-600 list-disc list-outside dark:text-gray-400 lg:text-lg text-base font-normal lg:mx-20">
               <li className=''>
                 Customized multi-channel growth strategies across Google Ads, Meta, LinkedIn, TikTok, Snapchat & Pinterest.
               </li>
@@ -55,7 +55,7 @@ function ServiceContent() {
           <div className="py-20 bg-white border-0 rounded-0 shadow-none dark:bg-gray-800 dark:border-gray-700 flex-1 px-4 lg:px-0">
             <h1 className='lg:text-5xl text-4xl text-black-100 font-extrabold lg:mx-20'>Performance Marketing</h1>
             <h3 className='lg:text-xl text-lg text-black-100 text-opacity-75 font-semibold my-4 lg:mx-20'>Utilising data driven tactics to deliver high return on investment from your performance marketing budget.</h3>
-            <ul className="space-y-2 text-gray-600 list-disc list-inside dark:text-gray-400 lg:text-lg text-base font-normal lg:mx-20">
+            <ul className="space-y-2 text-gray-600 list-disc list-outside dark:text-gray-400 lg:text-lg text-base font-normal lg:mx-20">
               <li className=''>
                 Customized multi-channel growth.
               </li>
@@ -96,7 +96,7 @@ function ServiceContent() {
           <div className="py-20 bg-orange-300 border-0 rounded-0 shadow-none dark:bg-gray-800 dark:border-gray-700 flex-1 px-4 lg:px-0">
             <h1 className='lg:text-5xl text-4xl text-black-100 font-extrabold lg:mx-20'>Performance Marketing</h1>
             <h3 className='lg:text-xl text-lg text-black-100 text-opacity-75 font-semibold my-4 lg:mx-20'>Utilising data driven tactics to deliver high return on investment from your performance marketing budget.</h3>
-            <ul className="space-y-2 text-gray-600 list-disc list-inside dark:text-gray-400 lg:text-lg text-base font-normal lg:mx-20">
+            <ul className="space-y-2 text-gray-600 list-disc list-outside dark:text-gray-400 lg:text-lg text-base font-normal lg:mx-20">
               <li className=''>
                 Customized multi-channel growth strategies across Google Ads, Meta, LinkedIn, TikTok, Snapchat & Pinterest.
               </li>
@@ -120,7 +120,7 @@ function ServiceContent() {
           <div className="py-20 bg-white border-0 rounded-0 shadow-none dark:bg-gray-800 dark:border-gray-700 flex-1 px-4 lg:px-0">
             <h1 className='lg:text-5xl text-4xl text-black-100 font-extrabold lg:mx-20'>Performance Marketing</h1>
             <h3 className='lg:text-xl text-lg text-black-100 text-opacity-75 font-semibold my-4 lg:mx-20'>Utilising data driven tactics to deliver high return on investment from your performance marketing budget.</h3>
-            <ul className="space-y-2 text-gray-600 list-disc list-inside dark:text-gray-400 lg:text-lg text-base font-normal lg:mx-20">
+            <ul className="space-y-2 text-gray-600 list-disc list-outside dark:text-gray-400 lg:text-lg text-base font-normal lg:mx-20">
               <li className=''>
                 Customized multi-channel growth strategies across Google Ads, Meta, LinkedIn, TikTok, Snapchat & Pinterest.
               </li>
@@ -151,7 +151,7 @@ function ServiceContent() {
           <div className="py-20 bg-orange-300 border-0 rounded-0 shadow-none dark:bg-gray-800 dark:border-gray-700 flex-1 px-4 lg:px-0">
             <h1 className='lg:text-5xl text-4xl text-black-100 font-extrabold lg:mx-20'>Performance Marketing</h1>
             <h3 className='lg:text-xl text-lg text-black-100 text-opacity-75 font-semibold my-4 lg:mx-20'>Utilising data driven tactics to deliver high return on investment from your performance marketing budget.</h3>
-            <ul className="space-y-2 text-gray-600 list-disc list-inside dark:text-gray-400 lg:text-lg text-base font-normal lg:mx-20">
+            <ul className="space-y-2 text-gray-600 list-disc list-outside dark:text-gray-400 lg:text-lg text-base font-normal lg:mx-20">
               <li className=''>
                 Customized multi-channel growth strategies across Google Ads, Meta, LinkedIn, TikTok, Snapchat & Pinterest.
               </li>

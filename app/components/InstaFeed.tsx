@@ -7,7 +7,7 @@ function InstaFeed() {
     return (
         <div className='bg-neutral-100'>
             <div className='lg:container p-10 py-28'>
-
+                {/* instagram section title */}
                 <h3 className='sm:text-5xl text-3xl font-bold text-center'>
                     <span className='text-black'>
                         Follow us on
@@ -17,7 +17,9 @@ function InstaFeed() {
                     </span>
 
                 </h3>
+                {/* instagram section sub heading */}
                 <p className='sm:text-base text-sm font-normal text-gray-500 text-center mx-auto max-w-[60ch] mt-6 mb-16'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolore obcaecati Laudantium dolore obcaecati.</p>
+                {/* instagram section follow us button */}
                 <div className="flex md:justify-end justify-center mb-8 mt-10">
                    <a href="http://www.instagram.com">
                     <button type="button" className="text-white bg-red-100 shadow-md shadow-red-500  border-0 focus:ring-0 focus:outline-none  font-bold rounded-full text-base px-7 py-3 text-center inline-flex items-center me-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 transform transition-transform hover:scale-90">
@@ -36,6 +38,7 @@ function InstaFeed() {
                     </button>
                     </a>
                 </div>
+                {/* instagram section slider */}
                 <div className="slider-insta">
                     <div className="slide-track">
                         <div className="slide-insta">

@@ -4,10 +4,12 @@ function WhyChooseUs() {
     return (
         <div className='bg-blue-100' id="WhyChooseUs">
             <div className='lg:container p-10 py-28'>
+                {/* why choose us section title */}
                 <h3 className='sm:text-5xl text-3xl font-bold text-center text-white mb-16'>
                     Why Choose Us?
                 </h3>
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+                {/* cards of why choose us */}
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center'>
 
                     <div className="max-w-sm p-6 bg-transparent border-0 dark:bg-gray-800 dark:border-gray-700">
                         <div className="flex flex-row gap-4">

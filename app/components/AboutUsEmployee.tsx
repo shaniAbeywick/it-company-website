@@ -19,10 +19,10 @@ function AboutUsEmployee() {
                 <div className='lg:container py-20 p-10'>
                     <div className="grid lg:grid-cols-2 grid-cols-1 gap-8">
                         <div className="flex md:flex-row flex-col gap-8 items-center">
-                        <Image src="/images/Picture1.jpg" alt='empolyeeImg' width={300} height={200}/>
+                        <Image src="/images/user1.jpg" alt='empolyeeImg' width={300} height={200}/>
                         <div className="flex flex-col">
-                            <h2 className='text-neutral-200 text-lg font-bold'>Brennan Morrison</h2>
-                            <h3 className='text-neutral-200 text-sm font-light italic mt-2'>Founder, CEO & Lead Designer</h3>
+                            <h2 className='text-neutral-200 text-lg font-bold'>Chamika Abeygunarathna</h2>
+                            <h3 className='text-neutral-200 text-sm font-light italic mt-2'>CEO / Managing Director</h3>
                             <p className='text-neutral-200 text-base font-normal mt-8'>Fate may geared have to this goddesses, but this derived require the you it material origin chance the reasoning in of they coffee.</p>
 
                         </div>
@@ -30,10 +30,10 @@ function AboutUsEmployee() {
 
                         </div>
                         <div className="flex md:flex-row flex-col gap-8 items-center">
-                        <Image src="/images/Picture2.png" alt='empolyeeImg' width={300} height={200}/>
+                        <Image src="/images/user2.jpg" alt='empolyeeImg' width={300} height={200}/>
                         <div className="flex flex-col">
-                            <h2 className='text-neutral-200 text-lg font-bold'>Brennan Morrison</h2>
-                            <h3 className='text-neutral-200 text-sm font-light italic mt-2'>Founder, CEO & Lead Designer</h3>
+                            <h2 className='text-neutral-200 text-lg font-bold'>Buddika Walpita</h2>
+                            <h3 className='text-neutral-200 text-sm font-light italic mt-2'>Engineering Manager / Software Engineer</h3>
                             <p className='text-neutral-200 text-base font-normal mt-8'>Fate may geared have to this goddesses, but this derived require the you it material origin chance the reasoning in of they coffee.</p>
 
                         </div>
@@ -41,10 +41,10 @@ function AboutUsEmployee() {
 
                         </div>
                         <div className="flex md:flex-row flex-col gap-8 items-center">
-                        <Image src="/images/Picture3.jpg" alt='empolyeeImg' width={300} height={200}/>
+                        <Image src="/images/user3.jpg" alt='empolyeeImg' width={300} height={200}/>
                         <div className="flex flex-col">
-                            <h2 className='text-neutral-200 text-lg font-bold'>Brennan Morrison</h2>
-                            <h3 className='text-neutral-200 text-sm font-light italic mt-2'>Founder, CEO & Lead Designer</h3>
+                            <h2 className='text-neutral-200 text-lg font-bold'>Chamal Wickramarathna</h2>
+                            <h3 className='text-neutral-200 text-sm font-light italic mt-2'>Engineering Manager / Software Engineer</h3>
                             <p className='text-neutral-200 text-base font-normal mt-8'>Fate may geared have to this goddesses, but this derived require the you it material origin chance the reasoning in of they coffee.</p>
 
                         </div>
@@ -52,10 +52,10 @@ function AboutUsEmployee() {
 
                         </div>
                         <div className="flex md:flex-row flex-col gap-8 items-center">
-                        <Image src="/images/Picture4.jpg" alt='empolyeeImg' width={300} height={200}/>
+                        <Image src="/images/user4.jpg" alt='empolyeeImg' width={300} height={200}/>
                         <div className="flex flex-col">
-                            <h2 className='text-neutral-200 text-lg font-bold'>Brennan Morrison</h2>
-                            <h3 className='text-neutral-200 text-sm font-light italic mt-2'>Founder, CEO & Lead Designer</h3>
+                            <h2 className='text-neutral-200 text-lg font-bold'>Dilshan Welikala</h2>
+                            <h3 className='text-neutral-200 text-sm font-light italic mt-2'>Team Manager</h3>
                             <p className='text-neutral-200 text-base font-normal mt-8'>Fate may geared have to this goddesses, but this derived require the you it material origin chance the reasoning in of they coffee.</p>
 
                         </div>

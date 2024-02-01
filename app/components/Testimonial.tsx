@@ -10,11 +10,14 @@ function Testimonial() {
     return (
         <div className='bg-blue-100'>
             <div className='py-28'>
+                {/* testimonial section title */}
                 <h3 className='sm:text-5xl text-3xl font-bold text-center text-white px-10'>
                     Don't just take our word for it
                 </h3>
-                <p className='sm:text-base text-sm font-normal text-white text-center mx-auto max-w-[60ch] mt-6 mb-16 px-10'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolore obcaecati Laudantium dolore obcaecati.</p>
-
+                {/* testimonial section sub heading */}
+                <p className='sm:text-base text-sm font-normal text-white text-center mx-auto max-w-[60ch] mt-6 mb-16 px-10'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolore obcaecati Laudantium dolore obcaecati.
+                </p>
+                 {/* testimonial slider */}
                 <div className="slider-testimonial">
                     <div className="slide-track">
                         <div className="slide-testimonial">

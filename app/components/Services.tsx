@@ -6,6 +6,7 @@ function Services() {
         <div className='bg-neutral-100' id='Service'>
             <div className='lg:container p-10 py-28'>
 
+                 {/* service section title */}
                 <h3 className='sm:text-5xl text-3xl font-bold uppercase text-center'>
                     <span className='text-black'>
                         Our
@@ -15,9 +16,10 @@ function Services() {
                     </span>
 
                 </h3>
+                {/* service section sub heading */}
                 <p className='sm:text-base text-sm font-normal text-gray-500 text-center mx-auto max-w-[60ch] mt-6 mb-16'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolore obcaecati Laudantium dolore obcaecati.</p>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 px-4 sm:px-0">
-                    {/* card section */}
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 px-4 sm:px-0 justify-items-center">
+                    {/* card of services */}
                     <div className="relative transition-transform ease-in duration-300 hover:scale-105 hover:shadow-md hover:shadow-blue-50 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-2xl dark:bg-gray-800 dark:border-gray-700 service-card">
                         <div className="flex justify-center">
                             <div className="flex justify-center items-center bg-neutral-100 rounded-full w-12 h-12 p-2">
@@ -160,6 +162,7 @@ function Services() {
 
                     </div>
                 </div>
+                {/* view more button */}
                 <div className='flex justify-center mt-20'>
                     <Link href="/service">
                         <button type="button" className="text-white bg-blue-300 text-base font-medium hover:bg-blue-100 focus:ring-4 focus:ring-blue-300  rounded-sm  px-16 py-4 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">View More</button>

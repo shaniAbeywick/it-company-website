@@ -15,6 +15,7 @@ function page() {
     <main>
         <Banner/>
         <Nav/>
+        {/* hero component of about us page */}
         <AboutUsHero/>
         <AboutUsMainContent/>
         <AboutUsCount/>
