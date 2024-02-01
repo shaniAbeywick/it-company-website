@@ -175,3 +175,35 @@ ul li::marker{
 	}
   }
   
+  /* .overlay-employee {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0);
+	transition: background 0.5s ease;
+  }
+  .employeeImg:hover .overlay-employee {
+	display: flex;
+	background: rgba(0, 0, 0, .3);
+  }
+  .employeeImg:hover .seeMoreBtn {
+	opacity: 1;
+  }   */
+  .employee-name{
+	
+  background: linear-gradient(to right, rgb(194, 234, 84) 50%, white 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .5s ease-out;
+  
+  }
+  .employee-name:hover{
+	background-position: left bottom;
+  }
+  .employeeImg:hover + .employee-name{
+	background-position: left bottom;
+	
+	
+  }
+  
