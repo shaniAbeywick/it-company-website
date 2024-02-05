@@ -23,10 +23,10 @@ export default function Home() {
     
     <main className="overflow-hidden">
       
-        <Banner />
+        {/* <Banner /> */}
         <Nav />
         <Hero />
-        <LogoSlider/>
+        {/* <LogoSlider/> */}
         <Services />
         <WhyChooseUs />
         <RecentWorks />

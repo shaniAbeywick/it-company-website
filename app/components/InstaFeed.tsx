@@ -21,7 +21,7 @@ function InstaFeed() {
                 <p className='sm:text-base text-sm font-normal text-gray-500 text-center mx-auto max-w-[60ch] mt-6 mb-16'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolore obcaecati Laudantium dolore obcaecati.</p>
                 {/* instagram section follow us button */}
                 <div className="flex md:justify-end justify-center mb-8 mt-10">
-                   <a href="http://www.instagram.com">
+                   <a href="https://www.instagram.com/cdazzdev/">
                     <button type="button" className="text-white bg-red-100 shadow-md shadow-red-500  border-0 focus:ring-0 focus:outline-none  font-bold rounded-full text-base px-7 py-3 text-center inline-flex items-center me-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 transform transition-transform hover:scale-90">
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="white" xmlns="http://www.w3.org/2000/svg" className='me-2'>
                             <g clip-path="url(#clip0_110_1805)">
@@ -44,7 +44,7 @@ function InstaFeed() {
                         <div className="slide-insta">
                         <a href="http://www.instagram.com">
                             <div className="relative insta-card max-w-sm p-0 bg-white border border-gray-200 rounded-xl shadow dark:bg-gray-800 dark:border-gray-700">
-                                <Image src="/images/insta-feed.png" alt='instaImg' width={744} height={719} className='rounded-xl' />
+                                <Image src="/images/Happy-Independence-Day-Sri-Lanka-🇱🇰-SriLanka-independenceday-Celebrations-Instagram.png" alt='instaImg' width={744} height={719} className='rounded-xl' />
                                 <div className="overlay-insta absolute rounded-lg flex justify-center items-center">
                                     <svg width="40" height="40" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" className='instaImg opacity-0'>
                                         <g clip-path="url(#clip0_110_1805)">
@@ -66,7 +66,7 @@ function InstaFeed() {
                         <div className="slide-insta">
                         <a href="http://www.instagram.com">
                             <div className="relative insta-card max-w-sm p-0 bg-white border border-gray-200 rounded-xl shadow dark:bg-gray-800 dark:border-gray-700">
-                                <Image src="/images/insta-feed.png" alt='instaImg' width={744} height={719} className='rounded-xl' />
+                                <Image src="/images/Happy-Birthday-to-one-of-our-team-member-Chamal-Ayesh-Wickramanayaka-On-behalf-of-the-entire-CDAZZDEV-family-we-extend-the-warmest…-Instagram.png" alt='instaImg' width={744} height={719} className='rounded-xl' />
                                 <div className="overlay-insta absolute rounded-lg flex justify-center items-center">
                                     <svg width="40" height="40" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" className='instaImg opacity-0'>
                                         <g clip-path="url(#clip0_110_1805)">

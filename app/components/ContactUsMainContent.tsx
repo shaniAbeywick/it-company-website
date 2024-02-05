@@ -53,11 +53,11 @@ function ContactUsMainContent() {
                     <div>
                         <h3 className='text-3xl font-bold text-black-100'>Sri Lanka</h3>
                         <p className='text-lg font-medium text-black-100 text-opacity-70 mt-2'>
-                           ReapDigital (Private) Limited<br/>
-                           2nd Floor, Bernards Business Park,<br/>
-                           106 Dutugemunu Street,<br/>
-                           Dehiwela 10350,<br/>
-                           Sri Lanka
+                           NO.355 D,<br/>
+                           AGALAWATTA ROAD,<br/>
+                           WETTAWA,<br/>
+                           MATHUGAMA,<br/>
+                           SRI LANKA
                         </p>
                     </div>
                     <div>

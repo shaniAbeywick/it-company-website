@@ -46,9 +46,9 @@ function Nav() {
                             <li>
                                 <a href="/service" className="block py-2 px-3 text-white rounded-none hover:bg-blue-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
                             </li>
-                            <li>
+                            {/* <li>
                                 <a href="/career" className="block py-2 px-3 text-white rounded-none hover:bg-blue-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Career</a>
-                            </li>
+                            </li> */}
                             <li>
                                 <a href="/contact" className="block py-2 lg:px-6 px-3 text-white hover:bg-blue-100 md:hover:bg-transparent md:hover:text-white  md:hover:scale-110 md:active:scale-110 md:focus:scale-110 md:active:text-white md:focus:text-white hover:text-white active:text-white focus:text-white bg-transparent md:border-2 border-0 border-white md:rounded-sm rounded-none dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent focus:outline-none focus:ring-0">Contact</a>
                             </li>
