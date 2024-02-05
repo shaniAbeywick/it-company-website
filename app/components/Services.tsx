@@ -33,8 +33,8 @@ function Services() {
                         </a>
                         <p className="mb-3 font-normal text-black-100 text-opacity-70 dark:text-gray-400 text-center">Unlock the full potential of your online presence with our cutting-edge Web App Development services. At Designveloper, we specialize in creating dynamic and responsive web applications that cater to your unique business needs. Some of our notable creations include</p>
                         <div className="overlay absolute rounded-lg flex justify-center items-center">
-                        <a href="/service"> 
-                        <button type="button" className="seeMoreBtn py-2.5 px-5 opacity-0 text-sm font-medium text-blue-300 focus:outline-none bg-white rounded-lg border-0 hover:bg-gray-100 hover:text-blue-200 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">See More</button> 
+                        <a href="#Service"> 
+                        <button type="button" className="seeMoreBtn py-2.5 px-5 opacity-0 text-sm font-medium text-blue-300 focus:outline-none bg-white rounded-lg border-0 hover:bg-gray-100 hover:text-blue-300 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">See More</button> 
                         </a>
                         
                         </div>
@@ -57,8 +57,8 @@ function Services() {
                         </a>
                         <p className="mb-3 font-normal text-black-100 text-opacity-70 dark:text-gray-400 text-center">Take your business on the go with our Mobile App Development services. From conceptualization to deployment, we ensure your app stands out in the competitive mobile landscape.</p>
                         <div className="overlay absolute rounded-lg flex justify-center items-center">
-                        <a href="/service"> 
-                        <button type="button" className="seeMoreBtn py-2.5 px-5 opacity-0 text-sm font-medium text-blue-300 focus:outline-none bg-white rounded-lg border-0 hover:bg-gray-100 hover:text-blue-200 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">See More</button> 
+                        <a href="#Service"> 
+                        <button type="button" className="seeMoreBtn py-2.5 px-5 opacity-0 text-sm font-medium text-blue-300 focus:outline-none bg-white rounded-lg border-0 hover:bg-gray-100 hover:text-blue-300 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">See More</button> 
                         </a>
                         
                         </div>
@@ -81,8 +81,8 @@ function Services() {
                         </a>
                         <p className="mb-3 font-normal text-black-100 text-opacity-70 dark:text-gray-400 text-center">Safeguard your digital assets with our state-of-the-art Cyber Security solutions. We prioritize the confidentiality and integrity of your data, providing robust security measures tailored to your business needs.</p>
                         <div className="overlay absolute rounded-lg flex justify-center items-center">
-                        <a href="/service"> 
-                        <button type="button" className="seeMoreBtn py-2.5 px-5 opacity-0 text-sm font-medium text-blue-300 focus:outline-none bg-white rounded-lg border-0 hover:bg-gray-100 hover:text-blue-200 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">See More</button> 
+                        <a href="#Service"> 
+                        <button type="button" className="seeMoreBtn py-2.5 px-5 opacity-0 text-sm font-medium text-blue-300 focus:outline-none bg-white rounded-lg border-0 hover:bg-gray-100 hover:text-blue-300 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">See More</button> 
                         </a>
                         
                         </div>
@@ -105,8 +105,8 @@ function Services() {
                         </a>
                         <p className="mb-3 font-normal text-black-100 text-opacity-70 dark:text-gray-400 text-center">Embark on the journey of artificial intelligence with our AI Development services. Leverage the power of machine learning and data analysis to gain valuable insights and automate processes for enhanced efficiency.</p>
                         <div className="overlay absolute rounded-lg flex justify-center items-center">
-                        <a href="/service"> 
-                        <button type="button" className="seeMoreBtn py-2.5 px-5 opacity-0 text-sm font-medium text-blue-300 focus:outline-none bg-white rounded-lg border-0 hover:bg-gray-100 hover:text-blue-200 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">See More</button> 
+                        <a href="#Service"> 
+                        <button type="button" className="seeMoreBtn py-2.5 px-5 opacity-0 text-sm font-medium text-blue-300 focus:outline-none bg-white rounded-lg border-0 hover:bg-gray-100 hover:text-blue-300 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">See More</button> 
                         </a>
                         
                         </div>
@@ -129,8 +129,8 @@ function Services() {
                         </a>
                         <p className="mb-3 font-normal text-black-100 text-opacity-70 dark:text-gray-400 text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore, necessitatibus. Velit dolore aliquam adipisci assumenda, molestiae repellendus.</p>
                         <div className="overlay absolute rounded-lg flex justify-center items-center">
-                        <a href="/service"> 
-                        <button type="button" className="seeMoreBtn py-2.5 px-5 opacity-0 text-sm font-medium text-blue-300 focus:outline-none bg-white rounded-lg border-0 hover:bg-gray-100 hover:text-blue-200 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">See More</button> 
+                        <a href="#Service"> 
+                        <button type="button" className="seeMoreBtn py-2.5 px-5 opacity-0 text-sm font-medium text-blue-300 focus:outline-none bg-white rounded-lg border-0 hover:bg-gray-100 hover:text-blue-300 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">See More</button> 
                         </a>
                         
                         </div>
@@ -153,8 +153,8 @@ function Services() {
                         </a>
                         <p className="mb-3 font-normal text-black-100 text-opacity-70 dark:text-gray-400 text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore, necessitatibus. Velit dolore aliquam adipisci assumenda, molestiae repellendus.</p>
                         <div className="overlay absolute rounded-lg flex justify-center items-center">
-                        <a href="/service"> 
-                        <button type="button" className="seeMoreBtn py-2.5 px-5 opacity-0 text-sm font-medium text-blue-300 focus:outline-none bg-white rounded-lg border-0 hover:bg-gray-100 hover:text-blue-200 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">See More</button> 
+                        <a href="#Service"> 
+                        <button type="button" className="seeMoreBtn py-2.5 px-5 opacity-0 text-sm font-medium text-blue-300 focus:outline-none bg-white rounded-lg border-0 hover:bg-gray-100 hover:text-blue-300 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">See More</button> 
                         </a>
                         
                         </div>
