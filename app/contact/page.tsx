@@ -8,7 +8,7 @@ import Footer from '../components/Footer'
 function page() {
   return (
     <main className='overflow-hidden'>
-        <Banner/>
+        {/* <Banner/> */}
         <Nav/>
         <ContactUsHero/>
         <ContactUsMainContent/>

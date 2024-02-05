@@ -13,7 +13,7 @@ import AboutUsEmployee from '../components/AboutUsEmployee'
 function page() {
   return (
     <main>
-        <Banner/>
+        {/* <Banner/> */}
         <Nav/>
         {/* hero component of about us page */}
         <AboutUsHero/>
