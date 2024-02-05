@@ -66,7 +66,7 @@ function AboutUsEmployee() {
                             <button className="" onClick={openModal1}>
                                 <div className="relative">
                                     <div className="employeeImg">
-                                        <Image src="/images/user1.jpg" alt='empolyeeImg' width={300} height={200} className='w-full h-full rounded-xl' />
+                                        <Image src="/images/user5.jpg" alt='empolyeeImg' width={300} height={200} className='w-full h-full rounded-xl' />
                                     </div>
                                     <h2 className='text-neutral-200 text-lg font-bold mt-4 employee-name'>Chamika Abeygunarathna</h2>
                                 </div>
