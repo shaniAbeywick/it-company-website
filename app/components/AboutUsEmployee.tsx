@@ -61,14 +61,15 @@ function AboutUsEmployee() {
             </div>
             <div className="bg-white">
                 <div className='lg:container py-20 p-10'>
-                    <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-40">
+                    <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-48">
+
                         <div className="flex flex-col">
                             <button className="" onClick={openModal1}>
                                 <div className="relative">
                                     <div className="employeeImg">
                                         <Image src="/images/user1.jpg" alt='empolyeeImg' width={177} height={180} className='w-full h-full rounded-xl' />
                                     </div>
-                                    <h2 className='text-black-100 text-opacity-70 text-md font-bold mt-4 employee-name'>Chamika Abeygunarathna</h2>
+                                    <h2 className='text-black-100 text-opacity-70 text-sm font-bold mt-4 employee-name'>Chamika Abeygunarathna</h2>
                                     <h2 className='text-black-100 text-opacity-70 text-sm text-center font-bold mt-4'>CEO/MANAGING DIRECTOR </h2>
                                 </div>
                             </button>
@@ -106,7 +107,7 @@ function AboutUsEmployee() {
                                     <div className="employeeImg">
                                         <Image src="/images/user2.png" alt='empolyeeImg' width={177} height={180} className='w-full h-full rounded-xl' />
                                     </div>
-                                    <h2 className='text-black-100 text-opacity-70 text-md font-bold mt-4 employee-name'>Buddika Walpita</h2>
+                                    <h2 className='text-black-100 text-opacity-70 text-sm font-bold mt-4 employee-name'>Buddika Walpita</h2>
                                     <h2 className='text-black-100 text-opacity-70 text-sm text-center font-bold mt-4'>ENGINEERING MANAGERS/SOFTWARE ENGINEER</h2>
                                 </div>
                             </button>
@@ -150,7 +151,7 @@ function AboutUsEmployee() {
                                     <div className="employeeImg">
                                         <Image src="/images/user3.jpg" alt='empolyeeImg' width={177} height={180} className='w-full h-full rounded-xl' />
                                     </div>
-                                    <h2 className='text-black-100 text-opacity-70 text-md font-bold mt-4 employee-name'>Chamal Wickramarathna </h2>
+                                    <h2 className='text-black-100 text-opacity-70 text-sm font-bold mt-4 employee-name'>Chamal Wickramarathna </h2>
                                     <h2 className='text-black-100 text-opacity-70 text-sm text-center font-bold mt-4'>ENGINEERING MANAGERS/SOFTWARE ENGINEER</h2>
                                 </div>
                             </button>
@@ -180,7 +181,7 @@ function AboutUsEmployee() {
                                     <div className="employeeImg">
                                         <Image src="/images/user4.jpg" alt='empolyeeImg' width={177} height={180} className='w-full h-full rounded-xl' />
                                     </div>
-                                    <h2 className='text-black-100 text-opacity-70 text-md font-bold mt-4 employee-name'>Dilshan Welikala</h2>
+                                    <h2 className='text-black-100 text-opacity-70 text-sm font-bold mt-4 employee-name'>Dilshan Welikala</h2>
                                     <h2 className='text-black-100 text-opacity-70 text-sm text-center font-bold mt-4'>TEAM MANAGER</h2>
                                 </div>
                             </button>
