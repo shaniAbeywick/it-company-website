@@ -39,19 +39,19 @@ function Nav() {
                     <div className="hidden w-full md:block md:w-auto" id="navbar-default">
                         <ul className="font-medium flex flex-col md:justify-center md:items-center p-4 md:p-0 mt-4 border-0 rounded-lg bg-indigo-950 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-blue-100 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                             <li>
-                                <a href="/" className="block py-2 px-3 text-white rounded-none hover:bg-blue-100 md:bg-transparent md:text-white md:p-0 dark:text-white md:dark:text-blue-500 md:hover:text-blue-700">Home</a>
+                                <a href="/" className="block py-2 px-3 text-white rounded-none hover:bg-blue-100 md:bg-transparent md:text-white md:p-0 dark:text-white md:dark:text-blue-500 md:hover:text-blue-300">Home</a>
                             </li>
                             <li>
-                                <a href="/about" className="block py-2 px-3 text-white rounded-none hover:bg-blue-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+                                <a href="/about" className="block py-2 px-3 text-white rounded-none hover:bg-blue-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-300 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
                             </li>
                             <li>
-                                <a href="#Service" className="block py-2 px-3 text-white rounded-none hover:bg-blue-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+                                <a href="#Service" className="block py-2 px-3 text-white rounded-none hover:bg-blue-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-300 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
                             </li>
                             {/* <li>
-                                <a href="/career" className="block py-2 px-3 text-white rounded-none hover:bg-blue-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Career</a>
+                                <a href="/career" className="block py-2 px-3 text-white rounded-none hover:bg-blue-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-300 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Career</a>
                             </li> */}
                             <li>
-                                <a href="/contact" className="block py-2 lg:px-6 px-3 text-white hover:bg-blue-100 md:hover:bg-transparent md:hover:text-white  md:hover:scale-110 md:active:scale-110 md:focus:scale-110 md:active:text-white md:focus:text-white hover:text-white active:text-white focus:text-white bg-transparent md:border-2 border-0 border-white md:rounded-sm rounded-none dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent focus:outline-none focus:ring-0">Contact</a>
+                                <a href="/contact" className="block py-2 lg:px-6 px-3 text-white hover:bg-blue-100 md:hover:bg-transparent md:hover:text-blue-300  md:hover:scale-110 md:active:scale-110 md:focus:scale-110 md:active:text-white md:focus:text-white hover:text-white active:text-white focus:text-white bg-transparent md:border-2 border-0 border-white md:rounded-sm rounded-none dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent focus:outline-none focus:ring-0">Contact</a>
                             </li>
                         </ul>
                     </div>

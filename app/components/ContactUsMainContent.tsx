@@ -15,7 +15,7 @@ function ContactUsMainContent() {
                             <h3 className="text-4xl font-bold dark:text-white text-black-100">
                             Questions & Help
                             </h3>
-                            <p className='font-normal text-base text-neutral-50'>Please enter your details and we’ll contact you soon.</p>
+                            <p className='font-normal text-base text-black-100 text-opacity-70'>Please enter your details and we’ll contact you soon.</p>
                             <div>
                                             <label className="block mb-2 text-base font-medium text-gray-900 dark:text-white">Full Name*</label>
                                             <input type="text" name="name" id="name" className="bg-transparent border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" placeholder="John Smith" required />
@@ -38,10 +38,10 @@ function ContactUsMainContent() {
                                         <p className="mt-2 text-xs text-black dark:text-gray-400">Please note that all fields marked with an asterisk (*) are required.</p>
                                         
                                        
-                                        <ReCAPTCHA sitekey="6Ldy_l8pAAAAAEOKj5VylpP6dNrhPx6_KP63VwMx" className='w-full'/>
+                                        {/* <ReCAPTCHA sitekey="6Ldy_l8pAAAAAEOKj5VylpP6dNrhPx6_KP63VwMx" className='w-full'/> */}
                                        
                                         
-                                        <button type="submit" className="w-full text-white bg-blue-300 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-lg px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
+                                        <button type="submit" className="w-full text-white bg-blue-300 hover:bg-blue-300 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-lg px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
 
 
                             

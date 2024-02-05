@@ -18,7 +18,7 @@ function page() {
         {/* hero component of about us page */}
         <AboutUsHero/>
         <AboutUsMainContent/>
-        <AboutUsCount/>
+        {/* <AboutUsCount/> */}
         <AboutUsEmployee/>
         <Contact/>
         <Footer/>

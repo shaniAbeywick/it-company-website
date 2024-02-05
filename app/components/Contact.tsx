@@ -12,24 +12,31 @@ function Contact() {
             <div className="lg:container p-10 py-28">
                 <div className="flex flex-col justify-center items-center">
                     {/* contact section title */}
-                    <h1 className='lg:text-6xl text-4xl text-black text-center font-bold'>Get in Touch</h1>
+                    <h1 className='lg:text-6xl text-4xl text-black text-center font-bold'>
+                        <span className='text-black-100'>
+                            Get in
+                        </span>{' '}
+                        <span className='text-blue-300'>
+                            Touch
+                        </span>
+                    </h1>
                     {/* contact section sub heading */}
-                    <h2 className='lg:text-2xl text-xl text-gray-500 text-center font-medium text-opacity-65 mt-3 mb-6'>If you have any questions, we’re here to help!</h2>
+                    <h2 className='lg:text-2xl text-xl text-black-100 text-opacity-70 text-center font-medium mt-3 mb-6'>If you have any questions, we’re here to help!</h2>
                     {/* contact section button */}
-                    <button type="button" data-modal-target="default-modal" data-modal-toggle="default-modal" className="text-white bg-blue-800 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-md text-xl px-5 py-4 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Send us a Message</button>
+                    <button type="button" data-modal-target="default-modal" data-modal-toggle="default-modal" className="text-white bg-blue-300 hover:bg-blue-300 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-md text-xl px-5 py-4 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Send us a Message</button>
                     {/*  contact form modal */}
                     <div id="default-modal" aria-hidden="true" className="hidden bg-black-100 bg-opacity-80 overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
                         <div className="relative p-4 w-full max-w-2xl max-h-full">
 
                             <div className="relative bg-white rounded-lg shadow dark:bg-gray-700">
-                            <div className="p-4 md:p-5 border-0 rounded-t dark:border-gray-600">
+                                <div className="p-4 md:p-5 border-0 rounded-t dark:border-gray-600">
                                     <div className='flex items-center justify-between'>
                                         {/*  Main Title of contact form  */}
                                         <h3 className="text-4xl font-bold dark:text-white text-black-100">
                                             Get in Touch
                                         </h3>
                                         {/*  closing button of contact form  */}
-                                        <button type="button" className="end-2.5 text-white bg-blue-300 hover:bg-blue-400 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="default-modal">
+                                        <button type="button" className="end-2.5 text-white bg-blue-300 hover:bg-blue-300 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="default-modal">
                                             <svg className="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
                                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
                                             </svg>
@@ -42,7 +49,7 @@ function Contact() {
 
                                 </div>
 
-                                
+
                                 <div className="p-4 md:p-5">
                                     <form className="space-y-4" action="#">
                                         {/*  input fields of contact form  */}
@@ -68,14 +75,14 @@ function Contact() {
 
 
                                         <p className="mt-2 text-xs text-black dark:text-gray-400">Please note that all fields marked with an asterisk (*) are required.</p>
-                                        
+
                                         {/* google recaptcha  */}
-                                        <ReCAPTCHA sitekey="6Ldy_l8pAAAAAEOKj5VylpP6dNrhPx6_KP63VwMx" />
-                                        <button type="submit" className="w-full text-white bg-blue-300 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-lg px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
-                                        
+                                        {/* <ReCAPTCHA sitekey="6Ldy_l8pAAAAAEOKj5VylpP6dNrhPx6_KP63VwMx" /> */}
+                                        <button type="submit" className="w-full text-white bg-blue-300 hover:bg-blue-300 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-lg px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
+
                                     </form>
                                 </div>
-                                
+
                             </div>
                         </div>
                     </div>

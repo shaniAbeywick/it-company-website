@@ -8,7 +8,7 @@ function InstaFeed() {
         <div className='bg-blue-100'>
             <div className='lg:container p-10 py-28'>
                 {/* instagram section title */}
-                <h3 className='sm:text-5xl text-3xl font-bold text-center'>
+                <h3 className='sm:text-5xl text-3xl font-bold text-center mb-16'>
                     <span className='text-white'>
                         Follow us on
                     </span>{' '}
@@ -18,11 +18,11 @@ function InstaFeed() {
 
                 </h3>
                 {/* instagram section sub heading */}
-                <p className='sm:text-base text-sm font-normal text-white text-center mx-auto max-w-[60ch] mt-6 mb-16'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolore obcaecati Laudantium dolore obcaecati.</p>
+                {/* <p className='sm:text-base text-sm font-normal text-white text-center mx-auto max-w-[60ch] mt-6 mb-16'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolore obcaecati Laudantium dolore obcaecati.</p> */}
                 {/* instagram section follow us button */}
                 <div className="flex md:justify-end justify-center mb-8 mt-10">
                    <a href="https://www.instagram.com/cdazzdev/">
-                    <button type="button" className="text-white bg-red-100 shadow-0  border-0 focus:ring-0 focus:outline-none  font-bold rounded-full text-base px-7 py-3 text-center inline-flex items-center me-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 transform transition-transform hover:scale-90">
+                    <button type="button" className="text-white bg-blue-300 shadow-0  border-0 focus:ring-0 focus:outline-none  font-bold rounded-full text-base px-7 py-3 text-center inline-flex items-center me-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 transform transition-transform hover:scale-90">
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="white" xmlns="http://www.w3.org/2000/svg" className='me-2'>
                             <g clip-path="url(#clip0_110_1805)">
                                 <path d="M9.99992 13.4258C11.8918 13.4258 13.4255 11.8922 13.4255 10.0003C13.4255 8.1084 11.8918 6.57473 9.99992 6.57473C8.10803 6.57473 6.57436 8.1084 6.57436 10.0003C6.57436 11.8922 8.10803 13.4258 9.99992 13.4258Z" fill="white" />

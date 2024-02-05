@@ -52,23 +52,24 @@ function AboutUsEmployee() {
 
     return (
         <>
-            <div className="bg-neutral-100">
+            <div className="bg-blue-100">
                 <div className='lg:container py-20 p-10'>
 
-                    <h3 className='text-2xl font-semibold text-blue-400 text-center'>Meet The Team</h3>
-                    <p className='text-base font-normal text-neutral-500 text-center mt-3'>Meet the team and know what they do and love!</p>
+                    <h3 className='text-2xl font-semibold text-white text-center'>Meet The Team</h3>
+                    <p className='text-base font-normal text-white text-center mt-3'>Meet the team and know what they do and love!</p>
                 </div>
             </div>
             <div className="bg-white">
                 <div className='lg:container py-20 p-10'>
-                    <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-2">
+                    <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-40">
                         <div className="flex flex-col">
                             <button className="" onClick={openModal1}>
                                 <div className="relative">
                                     <div className="employeeImg">
-                                        <Image src="/images/user5.jpg" alt='empolyeeImg' width={300} height={200} className='w-full h-full rounded-xl' />
+                                        <Image src="/images/user1.jpg" alt='empolyeeImg' width={177} height={180} className='w-full h-full rounded-xl' />
                                     </div>
-                                    <h2 className='text-neutral-200 text-lg font-bold mt-4 employee-name'>Chamika Abeygunarathna</h2>
+                                    <h2 className='text-black-100 text-opacity-70 text-md font-bold mt-4 employee-name'>Chamika Abeygunarathna</h2>
+                                    <h2 className='text-black-100 text-opacity-70 text-sm text-center font-bold mt-4'>CEO/MANAGING DIRECTOR </h2>
                                 </div>
                             </button>
 
@@ -93,7 +94,7 @@ function AboutUsEmployee() {
                                                 Chamika is not only a coder but also a musician. He plays the guitar/violin and he finds a beautiful crossover between his software and music. Both pursuits challenge so many aspects of the intellect: creativity, organization, sequential processing, problem solving. This is what keeps him up at night, a never ending thirst to create beautiful, powerful things and share them with the world.
                                                 </p>
                                             </div>
-                                            <Image src="/images/user5.jpg" alt='empolyeeImg' className="rounded-lg" width={550} height={753} />
+                                            {/* <Image src="/images/user1.jpg" alt='empolyeeImg' className="rounded-lg" width={177} height={180} /> */}
                                         </a>
                                     </div>
                                 </div>
@@ -103,9 +104,10 @@ function AboutUsEmployee() {
                             <button className="" onClick={openModal2}>
                                 <div className="relative">
                                     <div className="employeeImg">
-                                        <Image src="/images/user5.jpg" alt='empolyeeImg' width={300} height={200} className='w-full h-full rounded-xl' />
+                                        <Image src="/images/user2.png" alt='empolyeeImg' width={177} height={180} className='w-full h-full rounded-xl' />
                                     </div>
-                                    <h2 className='text-neutral-200 text-lg font-bold mt-4 employee-name'>Buddika Walpita</h2>
+                                    <h2 className='text-black-100 text-opacity-70 text-md font-bold mt-4 employee-name'>Buddika Walpita</h2>
+                                    <h2 className='text-black-100 text-opacity-70 text-sm text-center font-bold mt-4'>ENGINEERING MANAGERS/SOFTWARE ENGINEER</h2>
                                 </div>
                             </button>
 
@@ -134,7 +136,7 @@ function AboutUsEmployee() {
                                                     Buddhika holds  the role of Engineering Manager at Ceylon Dazzling Dev (Pvt) Ltd, where he is at the helm of cutting-edge projects in AI, Machine Learning, Data Science, DevOps, and more. My expertise encompasses a wide range of technologies, including Python, Node.js, React, Next.js, and various programming languages.
                                                 </p>
                                             </div>
-                                            <Image src="/images/user5.jpg" alt='empolyeeImg' className="rounded-lg" width={550} height={753} />
+                                            {/* <Image src="/images/user5.jpg" alt='empolyeeImg' className="rounded-lg" width={550} height={753} /> */}
                                         </a>
                                     </div>
                                 </div>
@@ -146,9 +148,10 @@ function AboutUsEmployee() {
                             <button className="" onClick={openModal3}>
                                 <div className="relative">
                                     <div className="employeeImg">
-                                        <Image src="/images/user5.jpg" alt='empolyeeImg' width={300} height={200} className='w-full h-full rounded-xl' />
+                                        <Image src="/images/user3.jpg" alt='empolyeeImg' width={177} height={180} className='w-full h-full rounded-xl' />
                                     </div>
-                                    <h2 className='text-neutral-200 text-lg font-bold mt-4 employee-name'>Chamal Wickramarathna </h2>
+                                    <h2 className='text-black-100 text-opacity-70 text-md font-bold mt-4 employee-name'>Chamal Wickramarathna </h2>
+                                    <h2 className='text-black-100 text-opacity-70 text-sm text-center font-bold mt-4'>ENGINEERING MANAGERS/SOFTWARE ENGINEER</h2>
                                 </div>
                             </button>
                         </div>
@@ -164,7 +167,7 @@ function AboutUsEmployee() {
                                                 <h3 className='text-white text-lg font-light italic mt-4'>ENGINEERING MANAGERS/SOFTWARE ENGINEER</h3>
                                                 <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>Chamal is a seasoned Software Engineer with 13 years of experience, including 3 years dedicated to data science and artificial intelligence, driven by a passion for technology and its limitless possibilities. Chamala’s  journey has been enriched by a Master's degree in Data Science and AI, which has enabled me to delve deep into the world of data-driven insights and intelligent solutions. Chamala is  fascinated by the potential of IoT and Electronics to revolutionize industries, and also enthusiastic about contributing his expertise in this exciting domain. Collaborating with like-minded professionals to create innovative and transformative solutions is what motivates him the most. His motto is “Let's connect and explore how we can shape the future together”.</p>
                                             </div>
-                                            <Image src="/images/user5.jpg" alt='empolyeeImg' className="rounded-lg" width={550} height={753} />
+                                            {/* <Image src="/images/user5.jpg" alt='empolyeeImg' className="rounded-lg" width={550} height={753} /> */}
                                         </a>
                                     </div>
                                 </div>
@@ -175,9 +178,10 @@ function AboutUsEmployee() {
                             <button className="" onClick={openModal4}>
                                 <div className="relative">
                                     <div className="employeeImg">
-                                        <Image src="/images/user5.jpg" alt='empolyeeImg' width={300} height={200} className='w-full h-full rounded-xl' />
+                                        <Image src="/images/user4.jpg" alt='empolyeeImg' width={177} height={180} className='w-full h-full rounded-xl' />
                                     </div>
-                                    <h2 className='text-neutral-200 text-lg font-bold mt-4 employee-name'>Dilshan Welikala</h2>
+                                    <h2 className='text-black-100 text-opacity-70 text-md font-bold mt-4 employee-name'>Dilshan Welikala</h2>
+                                    <h2 className='text-black-100 text-opacity-70 text-sm text-center font-bold mt-4'>TEAM MANAGER</h2>
                                 </div>
                             </button>
                         </div>
@@ -193,7 +197,7 @@ function AboutUsEmployee() {
                                                 <h3 className='text-white text-lg font-light italic mt-4'>TEAM MANAGER</h3>
                                                 <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>Dilshan Welikala is a highly skilled and accomplished Web Developer, holding a degree in Software Engineering from NSBM. Commencing his professional journey in 2015 as a Trainee PHP Developer, Dilshan has seamlessly transitioned through various roles, showcasing his expertise as a Web Designer, UI/UX Designer, Visual Designer, and Front-end Developer. Currently serving as the Webflow Engineering Manager at CDAZZ, Dilshan plays a pivotal role in leading and contributing to innovative projects. With a comprehensive skill set and a commitment to excellence, Dilshan consistently delivers visually stunning and functionally robust web solutions, making a significant impact in the dynamic field of web development.</p>
                                             </div>
-                                            <Image src="/images/user5.jpg" alt='empolyeeImg' className="rounded-lg" width={550} height={753} />
+                                            {/* <Image src="/images/user5.jpg" alt='empolyeeImg' className="rounded-lg" width={550} height={753} /> */}
                                         </a>
                                     </div>
                                 </div>

@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 function Footer() {
     return (
-        <div className="bg-blue-100 bg-[url('/images/backgroundImg.png')]">
+        <div className="bg-blue-400 bg-[url('/images/backgroundImg.png')]">
             <div className="lg:container p-10 py-28">
 
                 {/* logo column of footer */}
@@ -19,9 +19,9 @@ function Footer() {
                 <div className='flex lg:flex-row flex-col lg:justify-between justify-center items-center gap-10 lg:gap-0 mt-10'>
                     <div>
                         <div className="flex gap-4">
-                            <a href="#Service" className='text-base text-white font-normal hover:text-opacity-50'>Services</a>
-                            <a href="/about" className='text-base text-white font-normal hover:text-opacity-50'>About Us</a>
-                            <a href="/contact" className='text-base text-white font-normal hover:text-opacity-50'>Contact Us</a>
+                            <a href="#Service" className='text-base text-white font-normal hover:text-blue-300'>Services</a>
+                            <a href="/about" className='text-base text-white font-normal hover:text-blue-300'>About Us</a>
+                            <a href="/contact" className='text-base text-white font-normal hover:text-blue-300'>Contact Us</a>
 
                         </div>
                         <div className='text-xs text-white font-normal lg:mt-4 lg:text-left text-center mt-12'>
