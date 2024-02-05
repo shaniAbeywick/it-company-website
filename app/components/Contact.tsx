@@ -8,13 +8,13 @@ function Contact() {
 
 
     return (
-        <div className="bg-blue-600">
+        <div className="bg-neutral-100">
             <div className="lg:container p-10 py-28">
                 <div className="flex flex-col justify-center items-center">
                     {/* contact section title */}
-                    <h1 className='lg:text-6xl text-4xl text-white text-center font-bold'>Get in Touch</h1>
+                    <h1 className='lg:text-6xl text-4xl text-black text-center font-bold'>Get in Touch</h1>
                     {/* contact section sub heading */}
-                    <h2 className='lg:text-2xl text-xl text-white text-center font-medium text-opacity-65 mt-3 mb-6'>If you have any questions, we’re here to help!</h2>
+                    <h2 className='lg:text-2xl text-xl text-gray-500 text-center font-medium text-opacity-65 mt-3 mb-6'>If you have any questions, we’re here to help!</h2>
                     {/* contact section button */}
                     <button type="button" data-modal-target="default-modal" data-modal-toggle="default-modal" className="text-white bg-blue-800 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-md text-xl px-5 py-4 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Send us a Message</button>
                     {/*  contact form modal */}

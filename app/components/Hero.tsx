@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="lg:container pt-10 pb-10 lg:pb-0 px-10">
         <div className="grid lg:grid-cols-2 grid-cols-1 lg:px-4 pt-4">
           {/* the left side content of hero section */}
-          <div className='flex flex-col justify-center gap-6'>
+          <div className='flex flex-col justify-start gap-8 lg:mt-20 mt-0'>
             <h3 className='sm:text-5xl text-3xl font-bold text-white sm:hero-title'>Cutting-edge Software Solutions for a Brighter Future </h3>
             <p className="text-white sm:text-base text-sm font-normal hero-descript">Dedication is our hallmark; we give it our all, pouring passion and expertise into every endeavor. Our commitment to excellence ensures that we consistently deliver the finest solutions, surpassing expectations.</p>
             {/* buttons of hero section */}

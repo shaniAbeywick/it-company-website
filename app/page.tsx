@@ -30,7 +30,7 @@ export default function Home() {
         <Services />
         <WhyChooseUs />
         <RecentWorks />
-        <Testimonial/>
+        {/* <Testimonial/> */}
         <InstaFeed/>
         <Contact/>
         <Footer/>
