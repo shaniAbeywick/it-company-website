@@ -16,7 +16,7 @@ function ServiceContent() {
           <div className='flex-1 lg:block hidden'>
           <Image src="/images/service_back_Img_1.jpg" alt='serviceImg' width={960} height={540} className="w-full h-full" />
           </div>
-          <div className="py-20 bg-orange-300 border-0 rounded-0 shadow-none dark:bg-gray-800 dark:border-gray-700 flex-1 px-4 lg:px-0">
+          <div className="py-20 bg-orange-300 border-0 rounded-0 shadow-none dark:bg-gray-800 dark:border-gray-700 flex-1 px-8 lg:px-0">
             <h1 className='lg:text-5xl text-4xl text-black-100 font-extrabold lg:mx-20'>Performance Marketing</h1>
             <h3 className='lg:text-xl text-lg text-black-100 text-opacity-75 font-semibold my-4 lg:mx-20'>Utilising data driven tactics to deliver high return on investment from your performance marketing budget.</h3>
             <ul className="space-y-2 text-gray-600 list-disc list-outside dark:text-gray-400 lg:text-lg text-base font-normal lg:mx-20">
@@ -52,7 +52,7 @@ function ServiceContent() {
           </div>
         </div>
         <div className='flex flex-row'>
-          <div className="py-20 bg-white border-0 rounded-0 shadow-none dark:bg-gray-800 dark:border-gray-700 flex-1 px-4 lg:px-0">
+          <div className="py-20 bg-white border-0 rounded-0 shadow-none dark:bg-gray-800 dark:border-gray-700 flex-1 px-8 lg:px-0">
             <h1 className='lg:text-5xl text-4xl text-black-100 font-extrabold lg:mx-20'>Performance Marketing</h1>
             <h3 className='lg:text-xl text-lg text-black-100 text-opacity-75 font-semibold my-4 lg:mx-20'>Utilising data driven tactics to deliver high return on investment from your performance marketing budget.</h3>
             <ul className="space-y-2 text-gray-600 list-disc list-outside dark:text-gray-400 lg:text-lg text-base font-normal lg:mx-20">
@@ -93,7 +93,7 @@ function ServiceContent() {
           </div>
 
 
-          <div className="py-20 bg-orange-300 border-0 rounded-0 shadow-none dark:bg-gray-800 dark:border-gray-700 flex-1 px-4 lg:px-0">
+          <div className="py-20 bg-orange-300 border-0 rounded-0 shadow-none dark:bg-gray-800 dark:border-gray-700 flex-1 px-8 lg:px-0">
             <h1 className='lg:text-5xl text-4xl text-black-100 font-extrabold lg:mx-20'>Performance Marketing</h1>
             <h3 className='lg:text-xl text-lg text-black-100 text-opacity-75 font-semibold my-4 lg:mx-20'>Utilising data driven tactics to deliver high return on investment from your performance marketing budget.</h3>
             <ul className="space-y-2 text-gray-600 list-disc list-outside dark:text-gray-400 lg:text-lg text-base font-normal lg:mx-20">
@@ -117,7 +117,7 @@ function ServiceContent() {
           </div>
         </div>
         <div className='flex flex-row'>
-          <div className="py-20 bg-white border-0 rounded-0 shadow-none dark:bg-gray-800 dark:border-gray-700 flex-1 px-4 lg:px-0">
+          <div className="py-20 bg-white border-0 rounded-0 shadow-none dark:bg-gray-800 dark:border-gray-700 flex-1 px-8 lg:px-0">
             <h1 className='lg:text-5xl text-4xl text-black-100 font-extrabold lg:mx-20'>Performance Marketing</h1>
             <h3 className='lg:text-xl text-lg text-black-100 text-opacity-75 font-semibold my-4 lg:mx-20'>Utilising data driven tactics to deliver high return on investment from your performance marketing budget.</h3>
             <ul className="space-y-2 text-gray-600 list-disc list-outside dark:text-gray-400 lg:text-lg text-base font-normal lg:mx-20">
@@ -148,7 +148,7 @@ function ServiceContent() {
           <Image src="/images/service_back_Img_5.jpg" alt='serviceImg' width={960} height={540} className="w-full h-full " />
           </div>
 
-          <div className="py-20 bg-orange-300 border-0 rounded-0 shadow-none dark:bg-gray-800 dark:border-gray-700 flex-1 px-4 lg:px-0">
+          <div className="py-20 bg-orange-300 border-0 rounded-0 shadow-none dark:bg-gray-800 dark:border-gray-700 flex-1 px-8 lg:px-0">
             <h1 className='lg:text-5xl text-4xl text-black-100 font-extrabold lg:mx-20'>Performance Marketing</h1>
             <h3 className='lg:text-xl text-lg text-black-100 text-opacity-75 font-semibold my-4 lg:mx-20'>Utilising data driven tactics to deliver high return on investment from your performance marketing budget.</h3>
             <ul className="space-y-2 text-gray-600 list-disc list-outside dark:text-gray-400 lg:text-lg text-base font-normal lg:mx-20">
