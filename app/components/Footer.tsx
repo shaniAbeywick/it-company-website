@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 function Footer() {
     return (
-        <div className="bg-blue-400 bg-[url('/images/backgroundImg.png')]">
+        <div className="bg-blue-400 bg-[url('/images/360_F_542404248_jlW64sl8elujM6epFZB9qRAOb7U0wRZB.png')]">
             <div className="lg:container p-10 py-28">
 
                 {/* logo column of footer */}

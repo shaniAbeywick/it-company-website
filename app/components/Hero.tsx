@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <div className="bg-blue-100 bg-[url('/images/backgroundImg.png')]">
+    <div className="bg-blue-100 bg-[url('/images/360_F_542404248_jlW64sl8elujM6epFZB9qRAOb7U0wRZB.png')]">
       <div className="lg:container pt-10 pb-10 lg:pb-0 px-10">
         <div className="grid lg:grid-cols-2 grid-cols-1 lg:px-4 pt-4">
           {/* the left side content of hero section */}
@@ -19,7 +19,7 @@ const Hero = () => {
           </div>
           {/* the image in right side of hero section */}
           <div className='lg:block hidden'>
-            <Image src="/images/Iso-Illustration-1-1.png" alt='heroImg' width={744} height={719} />
+            <Image src="/images/1_90X1x3i2tkHRZBIyj0bG9w.png" alt='heroImg' width={744} height={719} />
           </div>
 
 

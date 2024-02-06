@@ -14,10 +14,10 @@ function ServiceContent() {
       <div className='grid grid-cols-1'>
         <div className='flex flex-row'>
           <div className='flex-1 lg:block hidden'>
-          <Image src="/images/service_back_Img_1.jpg" alt='serviceImg' width={960} height={540} className="w-full h-full" />
+          <Image src="/images/igor-miske-Px3iBXV-4TU-unsplash.jpg" alt='serviceImg' width={960} height={540} className="w-full h-full" />
           </div>
           <div className="py-20 bg-orange-300 border-0 rounded-0 shadow-none dark:bg-gray-800 dark:border-gray-700 flex-1 px-8 lg:px-0">
-            <h1 className='lg:text-5xl text-4xl text-black-100 font-extrabold lg:mx-20'>Performance Marketing</h1>
+            <h1 className='lg:text-5xl text-4xl text-black-100 font-extrabold lg:mx-20'>Web App Development</h1>
             <h3 className='lg:text-xl text-lg text-black-100 text-opacity-75 font-semibold my-4 lg:mx-20'>Utilising data driven tactics to deliver high return on investment from your performance marketing budget.</h3>
             <ul className="space-y-2 text-gray-600 list-disc list-outside dark:text-gray-400 lg:text-lg text-base font-normal lg:mx-20">
               <li className=''>
@@ -41,11 +41,8 @@ function ServiceContent() {
               <li>
                 Transparent reporting
               </li>
-              <li>
-                Analytics review and standardization for accurate tracking & KPI forecasting
-              </li>
             </ul>
-            <a href="#" className="lg:mx-20 mt-10 inline-flex items-center px-8 py-4 lg:text-xl text-md font-medium text-center text-white bg-orange-500 rounded-md hover:bg-orange-400 focus:ring-0 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 shadow-lg shadow-neutral-400">
+            <a href="#" className="lg:mx-20 mt-10 inline-flex items-center px-8 py-4 lg:text-xl text-md font-medium text-center text-white bg-blue-300 rounded-md hover:bg-blue-300 focus:ring-0 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 shadow-lg shadow-neutral-400">
               Get in Touch
 
             </a>
@@ -53,7 +50,7 @@ function ServiceContent() {
         </div>
         <div className='flex flex-row'>
           <div className="py-20 bg-white border-0 rounded-0 shadow-none dark:bg-gray-800 dark:border-gray-700 flex-1 px-8 lg:px-0">
-            <h1 className='lg:text-5xl text-4xl text-black-100 font-extrabold lg:mx-20'>Performance Marketing</h1>
+            <h1 className='lg:text-5xl text-4xl text-black-100 font-extrabold lg:mx-20'>Mobile App Development</h1>
             <h3 className='lg:text-xl text-lg text-black-100 text-opacity-75 font-semibold my-4 lg:mx-20'>Utilising data driven tactics to deliver high return on investment from your performance marketing budget.</h3>
             <ul className="space-y-2 text-gray-600 list-disc list-outside dark:text-gray-400 lg:text-lg text-base font-normal lg:mx-20">
               <li className=''>
@@ -78,23 +75,23 @@ function ServiceContent() {
                 Transparent reporting
               </li>
             </ul>
-            <a href="#" className="lg:mx-20 mt-10 inline-flex items-center px-8 py-4 lg:text-xl text-md font-medium text-center text-white bg-orange-500 rounded-md hover:bg-orange-400 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 shadow-lg shadow-neutral-400">
+            <a href="#" className="lg:mx-20 mt-10 inline-flex items-center px-8 py-4 lg:text-xl text-md font-medium text-center text-white bg-blue-300 rounded-md hover:bg-blue-300 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 shadow-lg shadow-neutral-400">
               Get in Touch
 
             </a>
           </div>
           <div className='flex-1 lg:block hidden'>
-          <Image src="/images/service_back_Img_2.jpg" alt='serviceImg' width={960} height={540} className="w-full h-full" />
+          <Image src="/images/tran-mau-tri-tam-QwAL909kTiY-unsplash.jpg" alt='serviceImg' width={960} height={540} className="w-full h-full" />
           </div>
         </div>
         <div className='flex flex-row'>
            <div className='flex-1 lg:block hidden'>
-          <Image src="/images/service_back_Img_3.jpg" alt='serviceImg' width={960} height={540} className="w-full h-full" />
+          <Image src="/images/computer-1591018.jpg" alt='serviceImg' width={960} height={540} className="w-full h-full" />
           </div>
 
 
           <div className="py-20 bg-orange-300 border-0 rounded-0 shadow-none dark:bg-gray-800 dark:border-gray-700 flex-1 px-8 lg:px-0">
-            <h1 className='lg:text-5xl text-4xl text-black-100 font-extrabold lg:mx-20'>Performance Marketing</h1>
+            <h1 className='lg:text-5xl text-4xl text-black-100 font-extrabold lg:mx-20'>Cyber Security</h1>
             <h3 className='lg:text-xl text-lg text-black-100 text-opacity-75 font-semibold my-4 lg:mx-20'>Utilising data driven tactics to deliver high return on investment from your performance marketing budget.</h3>
             <ul className="space-y-2 text-gray-600 list-disc list-outside dark:text-gray-400 lg:text-lg text-base font-normal lg:mx-20">
               <li className=''>
@@ -110,7 +107,7 @@ function ServiceContent() {
                 Competitor research
               </li>
             </ul>
-            <a href="#" className="lg:mx-20 mt-10 inline-flex items-center px-8 py-4 lg:text-xl text-base font-medium text-center text-white bg-orange-500 rounded-md hover:bg-orange-400 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 shadow-lg shadow-neutral-400">
+            <a href="#" className="lg:mx-20 mt-10 inline-flex items-center px-8 py-4 lg:text-xl text-base font-medium text-center text-white bg-blue-300 rounded-md hover:bg-blue-300 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 shadow-lg shadow-neutral-400">
               Get in Touch
 
             </a>
@@ -118,7 +115,7 @@ function ServiceContent() {
         </div>
         <div className='flex flex-row'>
           <div className="py-20 bg-white border-0 rounded-0 shadow-none dark:bg-gray-800 dark:border-gray-700 flex-1 px-8 lg:px-0">
-            <h1 className='lg:text-5xl text-4xl text-black-100 font-extrabold lg:mx-20'>Performance Marketing</h1>
+            <h1 className='lg:text-5xl text-4xl text-black-100 font-extrabold lg:mx-20'>AI Development</h1>
             <h3 className='lg:text-xl text-lg text-black-100 text-opacity-75 font-semibold my-4 lg:mx-20'>Utilising data driven tactics to deliver high return on investment from your performance marketing budget.</h3>
             <ul className="space-y-2 text-gray-600 list-disc list-outside dark:text-gray-400 lg:text-lg text-base font-normal lg:mx-20">
               <li className=''>
@@ -134,13 +131,13 @@ function ServiceContent() {
                 Competitor research
               </li>
             </ul>
-            <a href="#" className="lg:mx-20 mt-10 inline-flex items-center px-8 py-4 lg:text-xl text-lg font-medium text-center text-white bg-orange-500 rounded-md hover:bg-orange-400 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 shadow-lg shadow-neutral-400">
+            <a href="#" className="lg:mx-20 mt-10 inline-flex items-center px-8 py-4 lg:text-xl text-lg font-medium text-center text-white bg-blue-300 rounded-md hover:bg-blue-300 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 shadow-lg shadow-neutral-400">
               Get in Touch
 
             </a>
           </div>
           <div className='flex-1 lg:block hidden'>
-          <Image src="/images/service_back_Img_4.jpg" alt='serviceImg' width={960} height={540} className="w-full h-full" />
+          <Image src="/images/lukas-hND1OG3q67k-unsplash.jpg" alt='serviceImg' width={960} height={540} className="w-full h-full" />
           </div>
         </div>
         <div className='flex flex-row'>
@@ -166,7 +163,7 @@ function ServiceContent() {
               </li>
               
             </ul>
-            <a href="#" className="lg:mx-20 mt-10 inline-flex items-center px-8 py-4 lg:text-xl text-lg font-medium text-center text-white bg-orange-500 rounded-md hover:bg-orange-400 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 shadow-lg shadow-neutral-400">
+            <a href="#" className="lg:mx-20 mt-10 inline-flex items-center px-8 py-4 lg:text-xl text-lg font-medium text-center text-white bg-blue-300 rounded-md hover:bg-blue-300 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 shadow-lg shadow-neutral-400">
               Get in Touch
 
             </a>
