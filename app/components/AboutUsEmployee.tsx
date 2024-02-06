@@ -109,12 +109,13 @@ function AboutUsEmployee() {
                                             <div className="flex flex-col justify-between p-4 leading-normal">
                                                 <h2 className='text-white md:text-7xl text-6xl font-bold'>Chamika Abeygunarathna</h2>
                                                 <h3 className='text-white text-lg font-light italic mt-4'>CEO/MANAGING DIRECTOR</h3>
-                                                <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>First and foremost, he loves coding. Ever since coding his first program in Java and manipulating it to produce a desired output, he has been obsessed with the idea of using software to solve practical problems. Software engineering is a never-ending puzzle that I am passionately engaged in solving. He believes in the power of programming to transform and improve the lives of people around the world </p>
+                                                <h3 className='text-white text-lg font-light italic mt-4'>Msc in IT Specialisation in Cyber Security</h3>
+                                                <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>First and foremost, Chamika exhibits a profound passion for coding. From the inception of coding the initial program in Java, manipulating it to achieve desired outcomes, an enduring fascination with leveraging software to address practical challenges has been ingrained. Software engineering, perceived as an unceasing puzzle, remains a subject of fervent engagement for this professional. Firmly believing in the transformative potential of programming to enhance global lives, the individual has dedicatedly immersed themselves in this pursuit.</p>
                                                 <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>
-                                                    He started his career as a   lead a full UI/UX overhaul of a small start up's website and injecting HTML/CSS/JavaScript on popular merchant websites. This contract quickly turned into a full time offer and he has been happily expanding his role as a software engineer ever since. Chamika worked as a Lead Tech Expert at DEVY.io. and was able to  implement a micro front end into customer acquisition flow so that it can be dynamically composed using demographic data and allow for CI/CD deployments to bring features to market faster.
+                                                The career trajectory commenced with leading a comprehensive UX/UX overhaul for a nascent startup's website, coupled with the strategic injection of HTML/CSS/JavaScript into renowned merchant websites. What began as a contractual endeavor swiftly evolved into a full-time role, allowing for the continuous expansion of responsibilities as a seasoned software engineer. Notably, in the role of Lead Tech Expert at DEVY.io, the individual successfully orchestrated the implementation of a micro front end within the customer acquisition flow. This innovative approach facilitated dynamic composition based on demographic data and streamlined Continuous Integration/Continuous Deployment (CI/CD) deployments, accelerating the time-to-market for features.
                                                 </p>
                                                 <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>
-                                                    Chamika is not only a coder but also a musician. He plays the guitar/violin and he finds a beautiful crossover between his software and music. Both pursuits challenge so many aspects of the intellect: creativity, organization, sequential processing, problem solving. This is what keeps him up at night, a never ending thirst to create beautiful, powerful things and share them with the world.
+                                                Beyond coding, the individual is a multifaceted talent, doubling as a musician proficient in guitar and violin. The harmonious intersection between software and music serves as a testament to the individual's diverse intellectual challenges. Both realms demand creativity, organizational skills, sequential processing, and problem-solving, providing an ongoing source of motivation. This relentless pursuit is encapsulated in a perpetual desire to create exquisite, influential entities and share them with the global audience.
                                                 </p>
                                             </div>
                                             {/* <Image src="/images/user1.jpg" alt='empolyeeImg' className="rounded-lg" width={177} height={180} /> */}
@@ -131,6 +132,7 @@ function AboutUsEmployee() {
                                     </div>
                                     <h2 className='text-black-100 text-opacity-70 text-sm font-bold mt-4 employee-name'>Buddika Walpita</h2>
                                     <h2 className='text-black-100 text-opacity-70 text-sm text-center font-bold mt-4'>ENGINEERING MANAGERS/SOFTWARE ENGINEER</h2>
+                                    
                                 </div>
                             </button>
 
@@ -145,18 +147,41 @@ function AboutUsEmployee() {
                                             <div className="flex flex-col justify-between p-4 leading-normal">
                                                 <h2 className='text-white md:text-7xl text-6xl font-bold'>Buddika Walpita</h2>
                                                 <h3 className='text-white text-lg font-light italic mt-4'>ENGINEERING MANAGERS/SOFTWARE ENGINEER</h3>
-                                                <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>Buddkika is  a passionate and versatile professional who thrives at the intersection of technology, education, and leadership. With a Bachelor's degree in Software Technology and a National Vocational Qualification Level 5 in ICT, I've spent the past decade in various roles that have shaped my multifaceted career. </p>
+                                                <h3 className='text-white text-lg font-light italic mt-4'>B. Tech in Software Technology (2nd Class Upper)</h3>
+                                                <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>Buddhika is a dedicated and versatile professional who excels at the confluence of
+                                                    technology, education, and leadership. Armed with a Bachelor's degree in Software
+                                                    Technology, he has amassed a decade of experience in roles that have shaped his
+                                                    multifaceted career. </p>
                                                 <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>
-                                                    Buddhika began his career  as a software developer 10 years before , with expertise in WordPress, Woo-commerce, web and software development, and design. Over the years, he has  seamlessly navigated complex projects, specializing in database management, SEO, and customization, all while providing top-notch solutions to clients.
+                                                    Commencing his professional journey as a software developer a decade ago, Buddhika
+                                                    brings expertise in WordPress, Woo-commerce, web and software development, and
+                                                    design. Throughout the years, he has adeptly managed intricate projects, specializing in
+                                                    database management, SEO, and customization, consistently delivering high-quality
+                                                    solutions to clients.
+
                                                 </p>
                                                 <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>
-                                                    He is not only a Software Engineer but also as a Teacher he  has always been a passion of mine. For seven years, he served as an IT instructor, imparting knowledge in NVQ-L3, MS Office, Graphic Design, and ICT courses. Guiding students from diverse backgrounds, including school leavers and office professionals, has been a rewarding experience.
+                                                    Buddhika's commitment extends beyond being a Software Engineer; his passion for
+                                                    education is evident in his role as an IT instructor. Over a span of seven years, he has
+                                                    shared knowledge in NVQ-L3, MS Office, Graphic Design, and ICT courses. Guiding
+                                                    students from diverse backgrounds, including school leavers and office professionals, has
+                                                    been a fulfilling aspect of his career.
+
                                                 </p>
                                                 <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>
-                                                    Entrepreneurial Spirit: As the CEO of Cdazz Education Institute, he oversees a dynamic institution that offers a wide array of ICT courses. Cdazz Education Institut caters to students from grade 1 to grade 13, preparing them for O/L and A/L examinations, and nurturing their digital skills in Sri Lanka's ever-evolving landscape.
+                                                    Embodying an entrepreneurial spirit, Buddhika serves as the CEO of Cdazz Education
+                                                    Institute. In this capacity, he oversees a dynamic institution offering a comprehensive
+                                                    range of ICT courses, catering to students from grade 1 to grade 13. The institute
+                                                    prepares students for O/L and A/L examinations while nurturing their digital skills in Sri
+                                                    Lanka's evolving educational landscape.
                                                 </p>
                                                 <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>
-                                                    Buddhika holds  the role of Engineering Manager at Ceylon Dazzling Dev (Pvt) Ltd, where he is at the helm of cutting-edge projects in AI, Machine Learning, Data Science, DevOps, and more. My expertise encompasses a wide range of technologies, including Python, Node.js, React, Next.js, and various programming languages.
+                                                    In his role as the Engineering Manager at Ceylon Dazzling Dev (Pvt) Ltd, Buddhika steers
+                                                    cutting-edge projects in AI, Machine Learning, Data Science, DevOps, and more. His
+                                                    expertise spans various technologies, including Python, Node.js, React, Next.js, and
+                                                    multiple programming languages, positioning him at the forefront of innovation in the tech
+                                                    industry.
+
                                                 </p>
                                             </div>
                                             {/* <Image src="/images/user5.jpg" alt='empolyeeImg' className="rounded-lg" width={550} height={753} /> */}
@@ -188,7 +213,20 @@ function AboutUsEmployee() {
                                             <div className="flex flex-col justify-between p-4 leading-normal">
                                                 <h2 className='text-white md:text-7xl text-6xl font-bold'>Chamal Wickramarathna</h2>
                                                 <h3 className='text-white text-lg font-light italic mt-4'>ENGINEERING MANAGERS/SOFTWARE ENGINEER</h3>
-                                                <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>Chamal is a seasoned Software Engineer with 13 years of experience, including 3 years dedicated to data science and artificial intelligence, driven by a passion for technology and its limitless possibilities. Chamala’s  journey has been enriched by a Master's degree in Data Science and AI, which has enabled me to delve deep into the world of data-driven insights and intelligent solutions. Chamala is  fascinated by the potential of IoT and Electronics to revolutionize industries, and also enthusiastic about contributing his expertise in this exciting domain. Collaborating with like-minded professionals to create innovative and transformative solutions is what motivates him the most. His motto is “Let's connect and explore how we can shape the future together”.</p>
+                                                <h3 className='text-white text-lg font-light italic mt-4'>Msc in Data Science and AI -USJ, BIT - USCS - 1st Class</h3>
+                                                <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>Chamal, a seasoned Software Engineer with an impressive 13-year track record, brings a wealth of expertise to the table. With a dedicated focus on data science and artificial intelligence for the past three years, Chamal is driven by an unwavering passion for technology and its boundless possibilities.</p>
+                                                <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>
+                                                    Possessing a Master's degree in Data Science and AI, Chamal has embarked on a journey that goes beyond conventional programming. This academic pursuit has not only honed his skills but has also allowed him to immerse himself in the intricacies of data-driven insights and intelligent solutions.
+                                                </p>
+                                                <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>Chamal's fascination extends to the potential of IoT and Electronics to revolutionize industries. His keen interest in these transformative technologies fuels a commitment to staying at the forefront of industry trends and advancements. Eager to contribute his expertise to this dynamic domain, Chamal is dedicated to exploring innovative approaches that can shape the future.
+
+                                                </p>
+                                                <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>Collaboration is at the heart of Chamal's professional ethos. Working alongside like-minded professionals, he endeavors to create solutions that are not only innovative but also transformative. The prospect of connecting with others to collectively shape the future drives him forward, and his motto encapsulates this spirit: "Let's connect and explore how we can shape the future together."
+
+                                                </p>
+                                                <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>In Chamal, you find a seasoned professional whose combination of experience, academic prowess, and passion for cutting-edge technologies positions him as a valuable asset in the ever-evolving landscape of software engineering and data science.
+
+                                                </p>
                                             </div>
                                             {/* <Image src="/images/user5.jpg" alt='empolyeeImg' className="rounded-lg" width={550} height={753} /> */}
                                         </a>
@@ -218,7 +256,32 @@ function AboutUsEmployee() {
                                             <div className="flex flex-col justify-between p-4 leading-normal">
                                                 <h2 className='text-white md:text-7xl text-6xl font-bold'>Dilshan Welikala</h2>
                                                 <h3 className='text-white text-lg font-light italic mt-4'>TEAM MANAGER</h3>
-                                                <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>Dilshan Welikala is a highly skilled and accomplished Web Developer, holding a degree in Software Engineering from NSBM. Commencing his professional journey in 2015 as a Trainee PHP Developer, Dilshan has seamlessly transitioned through various roles, showcasing his expertise as a Web Designer, UI/UX Designer, Visual Designer, and Front-end Developer. Currently serving as the Webflow Engineering Manager at CDAZZ, Dilshan plays a pivotal role in leading and contributing to innovative projects. With a comprehensive skill set and a commitment to excellence, Dilshan consistently delivers visually stunning and functionally robust web solutions, making a significant impact in the dynamic field of web development.</p>
+                                                <h3 className='text-white text-lg font-light italic mt-4'>Bsc in Software Engineering</h3>
+                                                <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>Dilshan Welikala,an accomplished Web Developer with a degree in Software Engineering from NSBM, boasts a distinguished professional journey that commenced in 2015 as a Trainee PHP Developer. Dilshan's career has evolved seamlessly, encompassing roles such as Web Designer, UI/UX Designer, Visual Designer, and Front-end Developer,showcasing his versatility and depth of expertise.</p>
+                                                <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>
+                                                    Currently holding the position of Webflow Engineering Manager at CDAZZDEV, Dilshan is a
+                                                    driving force behind the leadership and execution of innovative projects. His role involves
+                                                    not only overseeing the development process but also actively contributing to the
+                                                    ideation and implementation of cutting-edge solutions.
+                                                </p>
+                                                <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>
+                                                    Dilshan's commitment to excellence is evident in his comprehensive skill set, enabling him
+                                                    to consistently deliver visually stunning and functionally robust web solutions. His
+                                                    proficiency extends beyond traditional development, incorporating elements of design
+                                                    and user experience to create a holistic digital experience. With a keen understanding of
+                                                    industry trends and emerging technologies, Dilshan stands at the forefront of the dynamic
+                                                    field of web development.
+                                                </p>
+                                                <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>
+                                                    Known for making a significant impact in every project he undertakes, Dilshan Welikala is
+                                                    a dedicated professional who navigates the intricate landscape of web development with
+                                                    precision and creativity. His contributions reflect not only technical prowess but also a
+                                                    commitment to staying at the forefront of the ever-evolving digital landscape. Dilshan's
+                                                    portfolio is a testament to his ability to transform concepts into tangible, impactful web
+                                                    solutions that leave a lasting impression in the competitive realm of web development.
+
+                                                </p>
+
                                             </div>
                                             {/* <Image src="/images/user5.jpg" alt='empolyeeImg' className="rounded-lg" width={550} height={753} /> */}
                                         </a>
@@ -247,6 +310,7 @@ function AboutUsEmployee() {
                                             <div className="flex flex-col justify-between p-4 leading-normal">
                                                 <h2 className='text-white md:text-7xl text-6xl font-bold'>Menaka Malaviarachchi</h2>
                                                 <h3 className='text-white text-lg font-light italic mt-4'>Head of Human Resources</h3>
+                                                <h3 className='text-white text-lg font-light italic mt-4'>BA(Human Resources)</h3>
                                                 <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>Menaka is an experienced specialist with a passion for delivering outstanding service.
                                                     Proactive, result-oriented professional with over 20+ years of experience in different
                                                     industries. Self-motivated, team player with strong organizational and interpersonal skills.
@@ -293,6 +357,7 @@ function AboutUsEmployee() {
                                                 <h2 className='text-white md:text-7xl text-6xl font-bold'>Roshani Nakandala
                                                 </h2>
                                                 <h3 className='text-white text-lg font-light italic mt-4'>Human Resource Executive</h3>
+                                                <h3 className='text-white text-lg font-light italic mt-4'>BA(Business Administration),ANDHRM</h3>
                                                 <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>Roshani is an executive of human resources with over 10 years of experience in different industries.Her background in human resource , administration,finance and banking.</p>
                                                 <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>
                                                     She considers herself a "forever student," eager to both build on her academic
