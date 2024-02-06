@@ -11,7 +11,7 @@ import ServiceContent from '../components/ServiceContent'
 function page() {
   return (
     <main className="overflow-hidden">
-      <Banner/>
+      {/* <Banner/> */}
       <Nav/>
       <ServiceHero/>
       <ServiceMainContent/>

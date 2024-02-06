@@ -19,13 +19,13 @@ function Footer() {
                 <div className='flex lg:flex-row flex-col lg:justify-between justify-center items-center gap-10 lg:gap-0 mt-10'>
                     <div>
                         <div className="flex gap-4">
-                            <a href="#Service" className='text-base text-white font-normal hover:text-blue-300'>Services</a>
+                            <a href="/service" className='text-base text-white font-normal hover:text-blue-300'>Services</a>
                             <a href="/about" className='text-base text-white font-normal hover:text-blue-300'>About Us</a>
                             <a href="/contact" className='text-base text-white font-normal hover:text-blue-300'>Contact Us</a>
 
                         </div>
                         <div className='text-xs text-white font-normal lg:mt-4 lg:text-left text-center mt-12'>
-                            @ 2024 CDAZZ DEV.<br />
+                            @ 2024 Ceylon Dazzling Dev Holding(Pvt) Ltd.<br />
                             All rights reserved 
                         </div>
                     </div>

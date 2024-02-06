@@ -45,7 +45,7 @@ function Nav() {
                                 <a href="/about" className="block py-2 px-3 text-white rounded-none hover:bg-blue-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-300 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
                             </li>
                             <li>
-                                <a href="#Service" className="block py-2 px-3 text-white rounded-none hover:bg-blue-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-300 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+                                <a href="/service" className="block py-2 px-3 text-white rounded-none hover:bg-blue-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-300 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
                             </li>
                             {/* <li>
                                 <a href="/career" className="block py-2 px-3 text-white rounded-none hover:bg-blue-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-300 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Career</a>

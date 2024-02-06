@@ -7,6 +7,8 @@ function AboutUsEmployee() {
     const [modal2Open, setModal2Open] = useState(false);
     const [modal3Open, setModal3Open] = useState(false);
     const [modal4Open, setModal4Open] = useState(false);
+    const [modal5Open, setModal5Open] = useState(false);
+    const [modal6Open, setModal6Open] = useState(false);
 
     const openModal1 = () => {
         setModal1Open(true);
@@ -48,6 +50,26 @@ function AboutUsEmployee() {
         setModal4Open(false);
         document.body.style.overflow = ''; // Re-enable scrolling on the body when modal is closed
     };
+    const openModal5 = () => {
+        setModal5Open(true);
+        document.body.style.overflow = 'hidden'; // Prevent scrolling on the body when modal is open
+
+    }
+    const closeModal5 = (e: { preventDefault: () => void; }) => {
+        e.preventDefault(); // Prevent default behavior of the click event
+        setModal5Open(false);
+        document.body.style.overflow = ''; // Re-enable scrolling on the body when modal is closed
+    };
+    const openModal6 = () => {
+        setModal6Open(true);
+        document.body.style.overflow = 'hidden'; // Prevent scrolling on the body when modal is open
+
+    }
+    const closeModal6 = (e: { preventDefault: () => void; }) => {
+        e.preventDefault(); // Prevent default behavior of the click event
+        setModal6Open(false);
+        document.body.style.overflow = ''; // Re-enable scrolling on the body when modal is closed
+    };
 
 
     return (
@@ -61,13 +83,13 @@ function AboutUsEmployee() {
             </div>
             <div className="bg-white">
                 <div className='lg:container py-20 p-10'>
-                    <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-48">
+                    <div className="grid lg:grid-cols-3 md:grid-cols-3 grid-cols-1 gap-x-80 gap-y-10">
 
                         <div className="flex flex-col">
                             <button className="" onClick={openModal1}>
                                 <div className="relative">
                                     <div className="employeeImg">
-                                        <Image src="/images/user1.jpg" alt='empolyeeImg' width={177} height={180} className='w-full h-full rounded-xl' />
+                                        <Image src="/images/user1.jpg" alt='empolyeeImg' width={182} height={158} className='w-full h-full rounded-xl' />
                                     </div>
                                     <h2 className='text-black-100 text-opacity-70 text-sm font-bold mt-4 employee-name'>Chamika Abeygunarathna</h2>
                                     <h2 className='text-black-100 text-opacity-70 text-sm text-center font-bold mt-4'>CEO/MANAGING DIRECTOR </h2>
@@ -89,10 +111,10 @@ function AboutUsEmployee() {
                                                 <h3 className='text-white text-lg font-light italic mt-4'>CEO/MANAGING DIRECTOR</h3>
                                                 <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>First and foremost, he loves coding. Ever since coding his first program in Java and manipulating it to produce a desired output, he has been obsessed with the idea of using software to solve practical problems. Software engineering is a never-ending puzzle that I am passionately engaged in solving. He believes in the power of programming to transform and improve the lives of people around the world </p>
                                                 <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>
-                                                He started his career as a   lead a full UI/UX overhaul of a small start up's website and injecting HTML/CSS/JavaScript on popular merchant websites. This contract quickly turned into a full time offer and he has been happily expanding his role as a software engineer ever since. Chamika worked as a Lead Tech Expert at DEVY.io. and was able to  implement a micro front end into customer acquisition flow so that it can be dynamically composed using demographic data and allow for CI/CD deployments to bring features to market faster. 
+                                                    He started his career as a   lead a full UI/UX overhaul of a small start up's website and injecting HTML/CSS/JavaScript on popular merchant websites. This contract quickly turned into a full time offer and he has been happily expanding his role as a software engineer ever since. Chamika worked as a Lead Tech Expert at DEVY.io. and was able to  implement a micro front end into customer acquisition flow so that it can be dynamically composed using demographic data and allow for CI/CD deployments to bring features to market faster.
                                                 </p>
                                                 <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>
-                                                Chamika is not only a coder but also a musician. He plays the guitar/violin and he finds a beautiful crossover between his software and music. Both pursuits challenge so many aspects of the intellect: creativity, organization, sequential processing, problem solving. This is what keeps him up at night, a never ending thirst to create beautiful, powerful things and share them with the world.
+                                                    Chamika is not only a coder but also a musician. He plays the guitar/violin and he finds a beautiful crossover between his software and music. Both pursuits challenge so many aspects of the intellect: creativity, organization, sequential processing, problem solving. This is what keeps him up at night, a never ending thirst to create beautiful, powerful things and share them with the world.
                                                 </p>
                                             </div>
                                             {/* <Image src="/images/user1.jpg" alt='empolyeeImg' className="rounded-lg" width={177} height={180} /> */}
@@ -105,7 +127,7 @@ function AboutUsEmployee() {
                             <button className="" onClick={openModal2}>
                                 <div className="relative">
                                     <div className="employeeImg">
-                                        <Image src="/images/user2.png" alt='empolyeeImg' width={177} height={180} className='w-full h-full rounded-xl' />
+                                        <Image src="/images/user2.jpg" alt='empolyeeImg' width={182} height={158} className='w-full h-full rounded-xl' />
                                     </div>
                                     <h2 className='text-black-100 text-opacity-70 text-sm font-bold mt-4 employee-name'>Buddika Walpita</h2>
                                     <h2 className='text-black-100 text-opacity-70 text-sm text-center font-bold mt-4'>ENGINEERING MANAGERS/SOFTWARE ENGINEER</h2>
@@ -149,7 +171,7 @@ function AboutUsEmployee() {
                             <button className="" onClick={openModal3}>
                                 <div className="relative">
                                     <div className="employeeImg">
-                                        <Image src="/images/user3.jpg" alt='empolyeeImg' width={177} height={180} className='w-full h-full rounded-xl' />
+                                        <Image src="/images/user3.jpg" alt='empolyeeImg' width={182} height={158} className='w-full h-full rounded-xl' />
                                     </div>
                                     <h2 className='text-black-100 text-opacity-70 text-sm font-bold mt-4 employee-name'>Chamal Wickramarathna </h2>
                                     <h2 className='text-black-100 text-opacity-70 text-sm text-center font-bold mt-4'>ENGINEERING MANAGERS/SOFTWARE ENGINEER</h2>
@@ -179,7 +201,7 @@ function AboutUsEmployee() {
                             <button className="" onClick={openModal4}>
                                 <div className="relative">
                                     <div className="employeeImg">
-                                        <Image src="/images/user4.jpg" alt='empolyeeImg' width={177} height={180} className='w-full h-full rounded-xl' />
+                                        <Image src="/images/user4.jpg" alt='empolyeeImg' width={182} height={158} className='w-full h-full rounded-xl' />
                                     </div>
                                     <h2 className='text-black-100 text-opacity-70 text-sm font-bold mt-4 employee-name'>Dilshan Welikala</h2>
                                     <h2 className='text-black-100 text-opacity-70 text-sm text-center font-bold mt-4'>TEAM MANAGER</h2>
@@ -197,6 +219,100 @@ function AboutUsEmployee() {
                                                 <h2 className='text-white md:text-7xl text-6xl font-bold'>Dilshan Welikala</h2>
                                                 <h3 className='text-white text-lg font-light italic mt-4'>TEAM MANAGER</h3>
                                                 <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>Dilshan Welikala is a highly skilled and accomplished Web Developer, holding a degree in Software Engineering from NSBM. Commencing his professional journey in 2015 as a Trainee PHP Developer, Dilshan has seamlessly transitioned through various roles, showcasing his expertise as a Web Designer, UI/UX Designer, Visual Designer, and Front-end Developer. Currently serving as the Webflow Engineering Manager at CDAZZ, Dilshan plays a pivotal role in leading and contributing to innovative projects. With a comprehensive skill set and a commitment to excellence, Dilshan consistently delivers visually stunning and functionally robust web solutions, making a significant impact in the dynamic field of web development.</p>
+                                            </div>
+                                            {/* <Image src="/images/user5.jpg" alt='empolyeeImg' className="rounded-lg" width={550} height={753} /> */}
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        )}
+                        <div className="flex flex-col">
+                            <button className="" onClick={openModal5}>
+                                <div className="relative">
+                                    <div className="employeeImg">
+                                        <Image src="/images/user5.jpg" alt='empolyeeImg' width={182} height={158} className='w-full h-full rounded-xl' />
+                                    </div>
+                                    <h2 className='text-black-100 text-opacity-70 text-sm font-bold mt-4 employee-name'>Menaka Malaviarachchi</h2>
+                                    <h2 className='text-black-100 text-opacity-70 text-sm text-center font-bold mt-4 uppercase'>Head of Human Resources</h2>
+                                </div>
+                            </button>
+                        </div>
+                        {modal5Open && (
+                            <div id="default-modal" aria-hidden="true" className="flex bg-black-100 bg-opacity-50 overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full" onClick={closeModal5}>
+                                <div className="relative p-4 w-full max-w-6xl max-h-full">
+
+                                    <div className="relative bg-white rounded-lg shadow dark:bg-gray-700">
+                                        <a href="#" className="flex flex-col items-center bg-slate-950 border-0 rounded-lg shadow md:flex-row md:max-w-7xl dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 p-2">
+
+                                            <div className="flex flex-col justify-between p-4 leading-normal">
+                                                <h2 className='text-white md:text-7xl text-6xl font-bold'>Menaka Malaviarachchi</h2>
+                                                <h3 className='text-white text-lg font-light italic mt-4'>Head of Human Resources</h3>
+                                                <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>Menaka is an experienced specialist with a passion for delivering outstanding service.
+                                                    Proactive, result-oriented professional with over 20+ years of experience in different
+                                                    industries. Self-motivated, team player with strong organizational and interpersonal skills.
+                                                    Always looking to learn new skills, take on extra responsibilities, and grow professionally.
+                                                    Menaka Obtained his Degree from the University of Hertfordshire in the UK with a
+                                                    second class. During his university period Manaka was able to work for one of the largest
+                                                    supermarket chains in the UK and was promoted to Deputy Manager within a very short
+                                                    period. He not only works in the UK but also in Bangladesh and Qatar as well.
+                                                </p>
+                                                <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>
+                                                    Menaka started his career as a software engineer and after 5 years he moved to project
+                                                    management and then to HR and Operations. During his schooling time was engaged
+                                                    with sports including track & field events and cricket.
+
+                                                </p>
+                                            </div>
+                                            {/* <Image src="/images/user5.jpg" alt='empolyeeImg' className="rounded-lg" width={550} height={753} /> */}
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        )}
+
+                        <div className="flex flex-col">
+                            <button className="" onClick={openModal6}>
+                                <div className="relative">
+                                    <div className="employeeImg">
+                                        <Image src="/images/user6.jpg" alt='empolyeeImg' width={182} height={158} className='w-full h-full rounded-xl' />
+                                    </div>
+                                    <h2 className='text-black-100 text-opacity-70 text-sm font-bold mt-4 employee-name'>Roshani Nakandala
+                                    </h2>
+                                    <h2 className='text-black-100 text-opacity-70 text-sm text-center font-bold mt-4 uppercase'>Human Resource Executive</h2>
+                                </div>
+                            </button>
+                        </div>
+                        {modal6Open && (
+                            <div id="default-modal" aria-hidden="true" className="flex bg-black-100 bg-opacity-50 overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full" onClick={closeModal6}>
+                                <div className="relative p-4 w-full max-w-6xl max-h-full">
+
+                                    <div className="relative bg-white rounded-lg shadow dark:bg-gray-700">
+                                        <a href="#" className="flex flex-col items-center bg-slate-950 border-0 rounded-lg shadow md:flex-row md:max-w-7xl dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 p-2">
+
+                                            <div className="flex flex-col justify-between p-4 leading-normal">
+                                                <h2 className='text-white md:text-7xl text-6xl font-bold'>Roshani Nakandala
+                                                </h2>
+                                                <h3 className='text-white text-lg font-light italic mt-4'>Human Resource Executive</h3>
+                                                <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>Roshani is an executive of human resources with over 10 years of experience in different industries.Her background in human resource , administration,finance and banking.</p>
+                                                <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>
+                                                    She considers herself a "forever student," eager to both build on her academic
+                                                    foundations in human resource, and stays in tune with the latest HR strategies through
+                                                    continued coursework and professional development.she completed her Bachelor degree
+                                                    in business administration at university of bedfordshire in uk and like as same she
+                                                    completed her Advanced national diploma in human resource management at national
+                                                    institutes of business management sri lanka.She considers herself a "forever student,"
+                                                    eager to both build on her academic foundations in human resource, and stays in tune
+                                                    with the latest HR strategies through continued coursework and professional
+                                                    development she currently reading charted qualification in human resource management
+                                                    at charter institut of personal management srilanka
+
+                                                </p>
+                                                <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>
+                                                    she believes dedication and commitment in the workplace is key to success—a tenet she
+                                                    lives out through her interests in crafting, meditation, gardening, and singing. Roshani is
+                                                    currently working as a human resource executive and is always interested in working with
+                                                    people.
+                                                </p>
                                             </div>
                                             {/* <Image src="/images/user5.jpg" alt='empolyeeImg' className="rounded-lg" width={550} height={753} /> */}
                                         </a>
