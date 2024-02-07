@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="grid grid-cols-1 lg:px-4 pt-4">
           {/* the left side content of hero section */}
           <div className='flex flex-col justify-start gap-8 lg:mt-20 mt-0'>
-            <h3 className='text-8xl font-bold text-white sm:hero-title'>Cutting-edge Software Solutions for a Brighter Future </h3>
+            <h3 className='lg:text-8xl text-6xl font-bold text-white sm:hero-title'>Cutting-edge Software Solutions for a Brighter Future </h3>
             <p className="text-white sm:text-lg text-sm font-normal hero-descript">Dedication is our hallmark; we give it our all, pouring passion and expertise into every endeavor. Our commitment to excellence ensures that we consistently deliver the finest solutions, surpassing expectations.</p>
             {/* buttons of hero section */}
             {/* <div className='flex flex-row'>
