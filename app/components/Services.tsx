@@ -18,7 +18,7 @@ function Services() {
                 </h3>
                 {/* service section sub heading */}
                 {/* <p className='sm:text-base text-sm font-normal text-gray-500 text-center mx-auto max-w-[60ch] mt-6 mb-16'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolore obcaecati Laudantium dolore obcaecati.</p> */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-16 px-4 sm:px-0 justify-items-center">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 px-4 sm:px-0 justify-items-center">
                     {/* card of services */}
                     <div className="relative transition-transform ease-in duration-300 hover:scale-105 hover:shadow-md hover:shadow-blue-50 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-2xl dark:bg-gray-800 dark:border-gray-700 service-card">
                         <div className="flex justify-center">
@@ -113,7 +113,7 @@ function Services() {
                         
 
                     </div>
-                    {/* <div className="relative transition-transform ease-in duration-300 hover:scale-105 hover:shadow-md hover:shadow-blue-50 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-2xl dark:bg-gray-800 dark:border-gray-700 service-card">
+                    <div className="relative transition-transform ease-in duration-300 hover:scale-105 hover:shadow-md hover:shadow-blue-50 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-2xl dark:bg-gray-800 dark:border-gray-700 service-card">
                         <div className="flex justify-center">
                             <div className="flex justify-center items-center bg-neutral-100 rounded-full w-12 h-12 p-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="#01BBDD" className="w-10 h-10">
@@ -160,7 +160,7 @@ function Services() {
                         </div>
                         
 
-                    </div> */}
+                    </div>
                 </div>
                 {/* view more button  */}
                 <div className='flex justify-center mt-20'>

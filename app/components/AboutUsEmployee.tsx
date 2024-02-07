@@ -198,7 +198,7 @@ function AboutUsEmployee() {
                                     <div className="employeeImg">
                                         <Image src="/images/user3.jpg" alt='empolyeeImg' width={182} height={158} className='w-full h-full rounded-xl' />
                                     </div>
-                                    <h2 className='text-black-100 text-opacity-70 text-sm font-bold mt-4 employee-name'>Chamal Wickramarathna </h2>
+                                    <h2 className='text-black-100 text-opacity-70 text-sm font-bold mt-4 employee-name'>Chamal Wickramanayaka </h2>
                                     <h2 className='text-black-100 text-opacity-70 text-sm text-center font-bold mt-4'>ENGINEERING MANAGERS/SOFTWARE ENGINEER</h2>
                                 </div>
                             </button>
@@ -211,7 +211,7 @@ function AboutUsEmployee() {
                                         <a href="#" className="flex flex-col items-center bg-slate-950 border-0 rounded-lg shadow md:flex-row md:max-w-7xl dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 p-2">
 
                                             <div className="flex flex-col justify-between p-4 leading-normal">
-                                                <h2 className='text-white md:text-7xl text-6xl font-bold'>Chamal Wickramarathna</h2>
+                                                <h2 className='text-white md:text-7xl text-6xl font-bold'>Chamal Wickramanayaka</h2>
                                                 <h3 className='text-white text-lg font-light italic mt-4'>ENGINEERING MANAGERS/SOFTWARE ENGINEER</h3>
                                                 <h3 className='text-white text-lg font-light italic mt-4'>Msc in Data Science and AI -USJ, BIT - USCS - 1st Class</h3>
                                                 <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>Chamal, a seasoned Software Engineer with an impressive 13-year track record, brings a wealth of expertise to the table. With a dedicated focus on data science and artificial intelligence for the past three years, Chamal is driven by an unwavering passion for technology and its boundless possibilities.</p>
@@ -358,25 +358,9 @@ function AboutUsEmployee() {
                                                 </h2>
                                                 <h3 className='text-white text-lg font-light italic mt-4'>Human Resource Executive</h3>
                                                 <h3 className='text-white text-lg font-light italic mt-4'>BA(Business Administration),ANDHRM</h3>
-                                                <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>Roshani is an executive of human resources with over 10 years of experience in different industries.Her background in human resource , administration,finance and banking.</p>
+                                                <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>Roshani is Highly focused, charismatic, persuasive and result driven  executive of human resources with over 10 years of experience in various industries holding various roles. Roshani specialties includes in human resource , administration,finance and banking. Roshani is a Bachelor degree in business administration at university of Bedfordshire in UK and Advanced national diploma holder in human resource management at national institutes of business management Sri Lanka. currently reading charted qualification in human resource management at charter institute of personal management Sri Lanka.</p>
                                                 <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>
-                                                    She considers herself a "forever student," eager to both build on her academic
-                                                    foundations in human resource, and stays in tune with the latest HR strategies through
-                                                    continued coursework and professional development.she completed her Bachelor degree
-                                                    in business administration at university of bedfordshire in uk and like as same she
-                                                    completed her Advanced national diploma in human resource management at national
-                                                    institutes of business management sri lanka.She considers herself a "forever student,"
-                                                    eager to both build on her academic foundations in human resource, and stays in tune
-                                                    with the latest HR strategies through continued coursework and professional
-                                                    development she currently reading charted qualification in human resource management
-                                                    at charter institut of personal management srilanka
-
-                                                </p>
-                                                <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>
-                                                    she believes dedication and commitment in the workplace is key to success—a tenet she
-                                                    lives out through her interests in crafting, meditation, gardening, and singing. Roshani is
-                                                    currently working as a human resource executive and is always interested in working with
-                                                    people.
+                                                Roshani considers herself as a "forever student," eager to both build on her academic foundations in human resource, and stay tune with the latest HR strategies through continued coursework and professional development
                                                 </p>
                                             </div>
                                             {/* <Image src="/images/user5.jpg" alt='empolyeeImg' className="rounded-lg" width={550} height={753} /> */}
