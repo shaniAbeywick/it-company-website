@@ -22,7 +22,7 @@ function Nav() {
     return (
         <>
             <nav className="bg-blue-100 border-gray-200 dark:bg-gray-900">
-            <div className="lg:container p-10">
+            <div className="lg:container p-2">
                 <div className="max-w-full flex flex-wrap items-center justify-between md:p-4">
                     {/* Logo image */}
                     <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">

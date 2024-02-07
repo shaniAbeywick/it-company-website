@@ -10,7 +10,7 @@ function WhyChooseUs() {
                     <span className='text-white'>
                     Why 
                     </span>{' '}
-                    <span className='text-blue-300'>
+                    <span className='text-white'>
                     Choose Us?
                     </span>
                 </h3>

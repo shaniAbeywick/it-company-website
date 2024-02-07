@@ -12,7 +12,7 @@ function InstaFeed() {
                     <span className='text-white'>
                         Follow us on
                     </span>{' '}
-                    <span className='text-blue-300'>
+                    <span className='text-white'>
                         Instagram
                     </span>
 
