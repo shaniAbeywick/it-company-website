@@ -33,8 +33,8 @@ module.exports = {
         black:{
           100:"#030913"
         },
-        orange:{
-          300:"#FEF1E6",
+        purple:{
+          300:"#220A28",
         },
 
       },

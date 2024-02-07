@@ -24,7 +24,7 @@ export default function Home() {
     <main className="overflow-hidden">
       
         {/* <Banner /> */}
-        <Nav />
+        {/* <Nav /> */}
         <Hero />
         {/* <LogoSlider/> */}
         <Services />
