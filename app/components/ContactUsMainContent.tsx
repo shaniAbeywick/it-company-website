@@ -61,7 +61,7 @@ function ContactUsMainContent() {
                         </p>
                     </div>
                     <div>
-                    <h3 className='text-3xl font-bold text-black-100'>Emil Us</h3>
+                    <h3 className='text-3xl font-bold text-black-100'>Email Us</h3>
                     <a href="mailto:info@cdazzdev.com" className='text-lg font-medium text-black-100 text-opacity-70 mt-2 underline decoration-slate-600 decoration-2 underline-offset-2'>
                     info@cdazzdev.com
                     </a>

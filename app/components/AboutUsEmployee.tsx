@@ -131,7 +131,7 @@ function AboutUsEmployee() {
                                         <Image src="/images/user2.jpg" alt='empolyeeImg' width={182} height={158} className='w-full h-full rounded-xl' />
                                     </div>
                                     <h2 className='text-black-100 text-opacity-70 text-sm font-bold mt-4 employee-name'>Buddika Walpita</h2>
-                                    <h2 className='text-black-100 text-opacity-70 text-sm text-center font-bold mt-4'>ENGINEERING MANAGERS/SOFTWARE ENGINEER</h2>
+                                    <h2 className='text-black-100 text-opacity-70 text-sm text-center font-bold mt-4'>HEAD OF ENGINEERING MANAGERS/SOFTWARE ARCHITECT</h2>
                                     
                                 </div>
                             </button>
@@ -146,7 +146,7 @@ function AboutUsEmployee() {
 
                                             <div className="flex flex-col justify-between p-4 leading-normal">
                                                 <h2 className='text-white md:text-7xl text-6xl font-bold'>Buddika Walpita</h2>
-                                                <h3 className='text-white text-lg font-light italic mt-4'>ENGINEERING MANAGERS/SOFTWARE ENGINEER</h3>
+                                                <h3 className='text-white text-lg font-light italic mt-4'>HEAD OF ENGINEERING MANAGERS/SOFTWARE ARCHITECT</h3>
                                                 <h3 className='text-white text-lg font-light italic mt-4'>B. Tech in Software Technology (2nd Class Upper)</h3>
                                                 <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>Buddhika is a dedicated and versatile professional who excels at the confluence of
                                                     technology, education, and leadership. Armed with a Bachelor's degree in Software
@@ -199,7 +199,7 @@ function AboutUsEmployee() {
                                         <Image src="/images/user3.jpg" alt='empolyeeImg' width={182} height={158} className='w-full h-full rounded-xl' />
                                     </div>
                                     <h2 className='text-black-100 text-opacity-70 text-sm font-bold mt-4 employee-name'>Chamal Wickramanayaka </h2>
-                                    <h2 className='text-black-100 text-opacity-70 text-sm text-center font-bold mt-4'>ENGINEERING MANAGERS/SOFTWARE ENGINEER</h2>
+                                    <h2 className='text-black-100 text-opacity-70 text-sm text-center font-bold mt-4'>ENGINEERING MANAGERS/SOFTWARE ARCHITECT</h2>
                                 </div>
                             </button>
                         </div>
@@ -212,7 +212,7 @@ function AboutUsEmployee() {
 
                                             <div className="flex flex-col justify-between p-4 leading-normal">
                                                 <h2 className='text-white md:text-7xl text-6xl font-bold'>Chamal Wickramanayaka</h2>
-                                                <h3 className='text-white text-lg font-light italic mt-4'>ENGINEERING MANAGERS/SOFTWARE ENGINEER</h3>
+                                                <h3 className='text-white text-lg font-light italic mt-4'>ENGINEERING MANAGERS/SOFTWARE ARCHITECT</h3>
                                                 <h3 className='text-white text-lg font-light italic mt-4'>Msc in Data Science and AI -USJ, BIT - USCS - 1st Class</h3>
                                                 <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>Chamal, a seasoned Software Engineer with an impressive 13-year track record, brings a wealth of expertise to the table. With a dedicated focus on data science and artificial intelligence for the past three years, Chamal is driven by an unwavering passion for technology and its boundless possibilities.</p>
                                                 <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>
@@ -242,7 +242,7 @@ function AboutUsEmployee() {
                                         <Image src="/images/user4.jpg" alt='empolyeeImg' width={182} height={158} className='w-full h-full rounded-xl' />
                                     </div>
                                     <h2 className='text-black-100 text-opacity-70 text-sm font-bold mt-4 employee-name'>Dilshan Welikala</h2>
-                                    <h2 className='text-black-100 text-opacity-70 text-sm text-center font-bold mt-4'>TEAM MANAGER</h2>
+                                    <h2 className='text-black-100 text-opacity-70 text-sm text-center font-bold mt-4'>TEAM MANAGER/TECH LEAD</h2>
                                 </div>
                             </button>
                         </div>
@@ -255,7 +255,7 @@ function AboutUsEmployee() {
 
                                             <div className="flex flex-col justify-between p-4 leading-normal">
                                                 <h2 className='text-white md:text-7xl text-6xl font-bold'>Dilshan Welikala</h2>
-                                                <h3 className='text-white text-lg font-light italic mt-4'>TEAM MANAGER</h3>
+                                                <h3 className='text-white text-lg font-light italic mt-4'>TEAM MANAGER/TECH LEAD</h3>
                                                 <h3 className='text-white text-lg font-light italic mt-4'>Bsc in Software Engineering</h3>
                                                 <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>Dilshan Welikala,an accomplished Web Developer with a degree in Software Engineering from NSBM, boasts a distinguished professional journey that commenced in 2015 as a Trainee PHP Developer. Dilshan's career has evolved seamlessly, encompassing roles such as Web Designer, UI/UX Designer, Visual Designer, and Front-end Developer,showcasing his versatility and depth of expertise.</p>
                                                 <p className='text-white text-base font-normal mt-8 max-w-[100ch]'>
