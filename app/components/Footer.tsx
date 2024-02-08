@@ -30,11 +30,11 @@ function Footer() {
                         </div>
                     </div>
                     <p className='text-xs font-normal text-white text-center lg:text-left'>
-                        No.355 D,<br />
-                        Agalawatta  Road,<br />
-                        Wettawa,<br />
-                        Mathugama,<br />
-                        SRI LANKA
+                        No.355 D <br />
+                        Agalawatta  Road <br />
+                        Wettawa <br />
+                        Mathugama <br />
+                        Sri Lanka
                     </p>
 
 
