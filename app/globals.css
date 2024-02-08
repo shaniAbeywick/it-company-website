@@ -58,6 +58,11 @@
 	max-height: 30rem !important;
 
 }
+.recentWorksCard1 {
+	min-height: 30rem !important;
+	max-height: 30rem !important;
+
+}
 .recentWorkImg{
 	top: 0;
 	width: 100%;
@@ -72,13 +77,35 @@
 	transition: bottom 11s;
 
 }
+.recentWorkImg1{
+	top: 0;
+	width: 100%;
+	height: auto;
+	z-index: 0;
+    margin:0;
+    padding:0;
+	-webkit-transition: top 11s;
+	-moz-transition: top 11s;
+	-ms-transition: top 11s;
+	-o-transition: top 11s;
+	transition: bottom 11s;
+
+}
 .recentWorksCard:hover .recentWorkImg{
-	 top:-1244px;
+	 top:-2100px;
 	-webkit-transition: all 11s;
   -moz-transition: all 11s;
   -ms-transition: all 11s;
   -o-transition: all 11s;
   transition: all 11s;
+}
+.recentWorksCard1:hover .recentWorkImg1{
+	top:-1000px;
+   -webkit-transition: all 11s;
+ -moz-transition: all 11s;
+ -ms-transition: all 11s;
+ -o-transition: all 11s;
+ transition: all 11s;
 }
 
 .overlay {
