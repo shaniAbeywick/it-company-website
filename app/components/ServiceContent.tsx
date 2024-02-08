@@ -182,7 +182,7 @@ function ServiceContent() {
             </a>
           </div>
           <div className='flex-1 lg:block hidden'>
-            <Image src="/images/lukas-hND1OG3q67k-unsplash.jpg" alt='serviceImg' width={960} height={540} className="w-full h-full" />
+            <Image src="/images/on-device-generative-ai-with-sub-10-billion-parameter-models.jpg" alt='serviceImg' width={960} height={540} className="w-full h-full" />
           </div>
         </div>
         {/* <div className='flex flex-row'>

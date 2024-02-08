@@ -24,17 +24,17 @@ function RecentWorks() {
                 <div className="grid md:grid-cols-3 grid-cols-1 gap-8 justify-items-center">
                     <div className="relative w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 overflow-hidden recentWorksCard hover:border-blue-300 hover:border-4">
                         <a href="https://www.bookeeapp.com/">
-                        <Image src="https://assets-global.website-files.com/61a8d339c610875946b12eee/6560a7b92d4104b1c8ee537c_bookee_home.webp" alt='heroImg' width={744} height={400} className="absolute object-cover recentWorkImg" />
+                        <Image src="https://assets-global.website-files.com/61a8d339c610875946b12eee/657998fd39d72f01421533c6_bookee_home.webp" alt='recentWorkImg' width={744} height={400} className="absolute object-cover recentWorkImg" />
                         </a>
                     </div>
                     <div className="relative w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 overflow-hidden recentWorksCard hover:border-blue-300 hover:border-4">
                         <a href="https://www.bookeeapp.com/">
-                        <Image src="https://assets-global.website-files.com/61a8d339c610875946b12eee/6560a7b92d4104b1c8ee537c_bookee_home.webp" alt='heroImg' width={744} height={400} className="absolute object-cover recentWorkImg" />
+                        <Image src="https://assets-global.website-files.com/61a8d339c610875946b12eee/657998fd39d72f01421533c6_bookee_home.webp" alt='heroImg' width={744} height={400} className="absolute object-cover recentWorkImg" />
                         </a>
                     </div>
                     <div className="relative w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 overflow-hidden recentWorksCard hover:border-blue-300 hover:border-4">
                         <a href="https://www.bookeeapp.com/">
-                        <Image src="https://assets-global.website-files.com/61a8d339c610875946b12eee/6560a7b92d4104b1c8ee537c_bookee_home.webp" alt='heroImg' width={744} height={400} className="absolute object-cover recentWorkImg" />
+                        <Image src="https://assets-global.website-files.com/61a8d339c610875946b12eee/657998fd39d72f01421533c6_bookee_home.webp" alt='heroImg' width={744} height={400} className="absolute object-cover recentWorkImg" />
                         </a>
                     </div>
                 </div>
