@@ -52,7 +52,7 @@ function AboutUsMainContent() {
                 <p className='text-base text-black-100 text-opacity-70 font-normal mt-4'>
 
                     Our mission is to do our best to provide dazzling solutions for IT and Cyber
-                    security related needs in a customer-centric manner and our vision to
+                    security related needs in a customer-centric manner and our vision is to
                     corporate humanity and IT for a better future.
 
 
