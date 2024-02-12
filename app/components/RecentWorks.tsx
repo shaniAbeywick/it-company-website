@@ -39,9 +39,9 @@ function RecentWorks() {
                     </div>
                 </div>
                 {/* view more button */}
-                <div className='flex justify-center mt-20'>
+                {/* <div className='flex justify-center mt-20'>
                 <button type="button" className="text-white bg-blue-300 text-base font-medium hover:bg-blue-100 focus:ring-4 focus:ring-blue-300  rounded-sm  px-16 py-4 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">View More</button>
-                </div>
+                </div> */}
                
             </div>
         </div>

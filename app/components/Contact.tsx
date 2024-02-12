@@ -1,11 +1,35 @@
 'use client';
 import React from 'react'
-import { useState } from 'react';
+import { FormEvent, useState } from 'react';
 import ReCAPTCHA from 'react-google-recaptcha'
+
 
 
 function Contact() {
 
+
+    const [name, setName] = useState('')
+    const [email, setEmail] = useState('')
+    const [phone, setPhone] = useState('')
+    const [message, setMessage] = useState('')
+
+    const sendMail = async (e: { preventDefault: () => void; } ) => {
+        e.preventDefault();
+
+        const response = await fetch('/api/sendEmil', {
+            method: 'POST',
+            headers: {
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify({
+                name,
+                email,
+                phone,
+                message
+            })
+        })
+        console.log(await response.json())
+    }
 
     return (
         <div className="bg-neutral-100">
@@ -51,25 +75,25 @@ function Contact() {
 
 
                                 <div className="p-4 md:p-5">
-                                    <form className="space-y-4" action="#">
+                                    <form className="space-y-4" action="#" onSubmit={sendMail} >
                                         {/*  input fields of contact form  */}
                                         <div>
                                             <label className="block mb-2 text-base font-medium text-gray-900 dark:text-white">Full Name*</label>
-                                            <input type="text" name="name" id="name" className="bg-transparent border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" placeholder="John Smith" required />
+                                            <input type="text" name="name" id="name" className="bg-transparent border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" placeholder="John Smith" onChange={(e)=>{setName(e.target.value)}}/>
                                         </div>
                                         <div>
                                             <label className="block mb-2 text-base font-medium text-gray-900 dark:text-white">Email*</label>
-                                            <input type="email" name="email" id="email" className="bg-transparent border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" placeholder="name@company.com" required />
+                                            <input type="email" name="email" id="email" className="bg-transparent border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" placeholder="name@company.com" onChange={(e)=>{setEmail(e.target.value)}} />
                                         </div>
                                         <div>
                                             <label className="block mb-2 text-base font-medium text-gray-900 dark:text-white">Tel. No: with Country Code</label>
-                                            <input type="text" id="phone-input" aria-describedby="helper-text-explanation" className="bg-transparent border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="+94 123456789" required />
+                                            <input type="text" id="phone-input" aria-describedby="helper-text-explanation" className="bg-transparent border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="+94 123456789" required onChange={(e)=>{setPhone(e.target.value)}} />
 
                                         </div>
                                         <div>
 
                                             <label className="block mb-2 text-base font-medium text-gray-900 dark:text-white">Your Requirement</label>
-                                            <textarea id="message" className="block p-2.5 w-full text-sm text-gray-900 bg-transparent rounded-none border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter your message here..."></textarea>
+                                            <textarea id="message" className="block p-2.5 w-full text-sm text-gray-900 bg-transparent rounded-none border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter your message here..." onChange={(e)=>{setMessage(e.target.value)}}></textarea>
 
                                         </div>
 
@@ -95,5 +119,5 @@ function Contact() {
         </div>
     )
 }
+export default Contact;
 
-export default Contact

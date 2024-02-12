@@ -10,11 +10,13 @@
   },
   "dependencies": {
     "@splidejs/react-splide": "^0.7.12",
+    "@types/nodemailer": "^6.4.14",
     "@types/react-google-recaptcha": "^2.1.9",
     "flowbite": "^2.2.1",
     "flowbite-react": "^0.7.2",
     "jquery": "^3.7.1",
     "next": "14.1.0",
+    "nodemailer": "^6.9.9",
     "react": "^18",
     "react-dom": "^18",
     "react-google-recaptcha": "^3.1.0",
