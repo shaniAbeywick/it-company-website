@@ -29,7 +29,7 @@ function RecentWorks() {
                     </div>
                     <div className="relative w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 overflow-hidden recentWorksCard1 hover:border-blue-300 hover:border-4">
                         <a href=" https://www.infogate.lk/">
-                        <Image src="/images/infogate.lk.png" alt='recentWorkImg' width={744} height={400} className="absolute object-cover recentWorkImg1" />
+                        <Image src="/images/infogate.lk_.png" alt='recentWorkImg' width={744} height={400} className="absolute object-cover recentWorkImg1" />
                         </a>
                     </div>
                     <div className="relative w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 overflow-hidden recentWorksCard hover:border-blue-300 hover:border-4">
