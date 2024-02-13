@@ -119,7 +119,7 @@
   transition: all 11s;
 }
 .recentWorksCard1:hover .recentWorkImg1{
-	top:-2100px;
+	top:-1000px;
    -webkit-transition: all 11s;
  -moz-transition: all 11s;
  -ms-transition: all 11s;
@@ -127,7 +127,7 @@
  transition: all 11s;
 }
 .recentWorksCard2:hover .recentWorkImg2{
-	top:-1100px;
+	top:-900px;
    -webkit-transition: all 11s;
  -moz-transition: all 11s;
  -ms-transition: all 11s;
