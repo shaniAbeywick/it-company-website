@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import Hero from "./components/Hero";
-import Nav from "./components/Nav";
 import LogoSlider from "./components/LogoSlider";
 import Banner from "./components/Banner";
 import Services from "./components/Services";
@@ -21,19 +20,19 @@ import { useEffect } from 'react';
 
 export default function Home() {
 
-  // useEffect(() => {
-  //   // Add event listener to the entire document
-  //   document.addEventListener('contextmenu',handlecontextmenu)
+  useEffect(() => {
+    // Add event listener to the entire document
+    document.addEventListener('contextmenu',handlecontextmenu)
 
-  //   // Cleanup function to remove the event listener when the component unmounts
-  //   return () => {
-  //     document.removeEventListener('contextmenu', handlecontextmenu);
-  //   };
-  // }, []); // Empty dependency array ensures this effect runs only once
-  // const handlecontextmenu=(e: { preventDefault: () => void; })=>{
-  //   e.preventDefault()
+    // Cleanup function to remove the event listener when the component unmounts
+    return () => {
+      document.removeEventListener('contextmenu', handlecontextmenu);
+    };
+  }, []); // Empty dependency array ensures this effect runs only once
+  const handlecontextmenu=(e: { preventDefault: () => void; })=>{
+    e.preventDefault()
     
-  // }
+  }
 
 
   return (

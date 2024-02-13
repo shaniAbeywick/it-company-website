@@ -107,9 +107,9 @@ function AboutUsEmployee() {
                                         <a href="#" className="flex flex-col items-center bg-slate-950 border-0 rounded-lg shadow md:flex-row md:max-w-7xl dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 p-2">
 
                                             <div className="flex flex-col justify-between p-4 leading-normal">
-                                                <h2 className='text-white md:text-7xl text-4xl font-bold'>Chamika Abeygunarathna</h2>
-                                                <h3 className='text-white md:text-lg text-md font-light italic mt-4'>CEO/MANAGING DIRECTOR</h3>
-                                                <h3 className='text-white md:text-lg text-md font-light italic mt-4'>Msc in IT Specialisation in Cyber Security</h3>
+                                                <h2 className='text-white md:text-5xl text-4xl font-bold'>Chamika Abeygunarathna</h2>
+                                                <h3 className='text-white md:text-base text-base font-light italic mt-4'>CEO/MANAGING DIRECTOR</h3>
+                                                <h3 className='text-white md:text-base text-base font-light italic mt-4'>Msc in IT Specialisation in Cyber Security</h3>
                                                 <p className='text-white md:text-base text-sm font-normal mt-8 max-w-[100ch]'>First and foremost, Chamika exhibits a profound passion for coding. From the inception of coding the initial program in Java, manipulating it to achieve desired outcomes, an enduring fascination with leveraging software to address practical challenges has been ingrained. Software engineering, perceived as an unceasing puzzle, remains a subject of fervent engagement for this professional. Firmly believing in the transformative potential of programming to enhance global lives, the individual has dedicatedly immersed themselves in this pursuit.</p>
                                                 <p className='text-white md:text-base text-sm font-normal mt-8 max-w-[100ch]'>
                                                 The career trajectory commenced with leading a comprehensive UX/UX overhaul for a nascent startup's website, coupled with the strategic injection of HTML/CSS/JavaScript into renowned merchant websites. What began as a contractual endeavor swiftly evolved into a full-time role, allowing for the continuous expansion of responsibilities as a seasoned software engineer. Notably, in the role of Lead Tech Expert at DEVY.io, the individual successfully orchestrated the implementation of a micro front end within the customer acquisition flow. This innovative approach facilitated dynamic composition based on demographic data and streamlined Continuous Integration/Continuous Deployment (CI/CD) deployments, accelerating the time-to-market for features.
@@ -145,9 +145,9 @@ function AboutUsEmployee() {
                                         <a href="#" className="flex flex-col items-center bg-slate-950 border-0 rounded-lg shadow md:flex-row md:max-w-7xl dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 p-2">
 
                                             <div className="flex flex-col justify-between p-4 leading-normal">
-                                                <h2 className='text-white md:text-7xl text-4xl font-bold'>Buddika Walpita</h2>
-                                                <h3 className='text-white md:text-lg text-md font-light italic mt-4'>HEAD OF ENGINEERING MANAGERS/SOFTWARE ARCHITECT</h3>
-                                                <h3 className='text-white md:text-lg text-md font-light italic mt-4'>B. Tech in Software Technology (2nd Class Upper)</h3>
+                                                <h2 className='text-white md:text-5xl text-4xl font-bold'>Buddika Walpita</h2>
+                                                <h3 className='text-white md:text-base text-base font-light italic mt-4'>HEAD OF ENGINEERING MANAGERS/SOFTWARE ARCHITECT</h3>
+                                                <h3 className='text-white md:text-base text-base font-light italic mt-4'>B. Tech in Software Technology (2nd Class Upper)</h3>
                                                 <p className='text-white md:text-base text-sm font-normal mt-8 max-w-[100ch]'>Buddhika is a dedicated and versatile professional who excels at the confluence of
                                                     technology, education, and leadership. Armed with a Bachelor's degree in Software
                                                     Technology, he has amassed a decade of experience in roles that have shaped his
@@ -211,9 +211,9 @@ function AboutUsEmployee() {
                                         <a href="#" className="flex flex-col items-center bg-slate-950 border-0 rounded-lg shadow md:flex-row md:max-w-7xl dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 p-2">
 
                                             <div className="flex flex-col justify-between p-4 leading-normal">
-                                                <h2 className='text-white md:text-7xl text-4xl font-bold'>Chamal Wickramanayaka</h2>
-                                                <h3 className='text-white md:text-lg text-md font-light italic mt-4'>ENGINEERING MANAGERS/SOFTWARE ARCHITECT</h3>
-                                                <h3 className='text-white md:text-lg text-md font-light italic mt-4'>Msc in Data Science and AI -USJ, BIT - USCS - 1st Class</h3>
+                                                <h2 className='text-white md:text-5xl text-4xl font-bold'>Chamal Wickramanayaka</h2>
+                                                <h3 className='text-white md:text-base text-base font-light italic mt-4'>ENGINEERING MANAGERS/SOFTWARE ARCHITECT</h3>
+                                                <h3 className='text-white md:text-base text-base font-light italic mt-4'>Msc in Data Science and AI -USJ, BIT - UCSC - 1st Class</h3>
                                                 <p className='text-white md:text-base text-sm font-normal mt-8 max-w-[100ch]'>Chamal, a seasoned Software Engineer with an impressive 13-year track record, brings a wealth of expertise to the table. With a dedicated focus on data science and artificial intelligence for the past three years, Chamal is driven by an unwavering passion for technology and its boundless possibilities.</p>
                                                 <p className='text-white md:text-base text-sm font-normal mt-8 max-w-[100ch]'>
                                                     Possessing a Master's degree in Data Science and AI, Chamal has embarked on a journey that goes beyond conventional programming. This academic pursuit has not only honed his skills but has also allowed him to immerse himself in the intricacies of data-driven insights and intelligent solutions.
@@ -254,9 +254,9 @@ function AboutUsEmployee() {
                                         <a href="#" className="flex flex-col items-center bg-slate-950 border-0 rounded-lg shadow md:flex-row md:max-w-7xl dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 p-2">
 
                                             <div className="flex flex-col justify-between p-4 leading-normal">
-                                                <h2 className='text-white md:text-7xl text-4xl font-bold'>Dilshan Welikala</h2>
-                                                <h3 className='text-white md:text-lg text-md font-light italic mt-4'>TEAM MANAGER/TECH LEAD</h3>
-                                                <h3 className='text-white md:text-lg text-md font-light italic mt-4'>Bsc in Software Engineering</h3>
+                                                <h2 className='text-white md:text-5xl text-4xl font-bold'>Dilshan Welikala</h2>
+                                                <h3 className='text-white md:text-base text-base font-light italic mt-4'>TEAM MANAGER/TECH LEAD</h3>
+                                                <h3 className='text-white md:text-base text-base font-light italic mt-4'>Bsc in Software Engineering</h3>
                                                 <p className='text-white md:text-base text-sm font-normal mt-8 max-w-[100ch]'>Dilshan Welikala,an accomplished Web Developer with a degree in Software Engineering from NSBM, boasts a distinguished professional journey that commenced in 2015 as a Trainee PHP Developer. Dilshan's career has evolved seamlessly, encompassing roles such as Web Designer, UI/UX Designer, Visual Designer, and Front-end Developer,showcasing his versatility and depth of expertise.</p>
                                                 <p className='text-white md:text-base text-sm font-normal mt-8 max-w-[100ch]'>
                                                     Currently holding the position of Webflow Engineering Manager at CDAZZDEV, Dilshan is a
@@ -308,9 +308,9 @@ function AboutUsEmployee() {
                                         <a href="#" className="flex flex-col items-center bg-slate-950 border-0 rounded-lg shadow md:flex-row md:max-w-7xl dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 p-2">
 
                                             <div className="flex flex-col justify-between p-4 leading-normal">
-                                                <h2 className='text-white md:text-7xl text-4xl font-bold'>Menaka Malaviarachchi</h2>
-                                                <h3 className='text-white md:text-lg text-md font-light italic mt-4'>Head of Human Resources</h3>
-                                                <h3 className='text-white md:text-lg text-md font-light italic mt-4'>BA(Human Resources)</h3>
+                                                <h2 className='text-white md:text-5xl text-4xl font-bold'>Menaka Malaviarachchi</h2>
+                                                <h3 className='text-white md:text-base text-base font-light italic mt-4'>Head of Human Resources</h3>
+                                                <h3 className='text-white md:text-base text-base font-light italic mt-4'>BA(Human Resources)</h3>
                                                 <p className='text-white md:text-base text-sm font-normal mt-8 max-w-[100ch]'>Menaka is an experienced specialist with a passion for delivering outstanding service.
                                                     Proactive, result-oriented professional with over 20+ years of experience in different
                                                     industries. Self-motivated, team player with strong organizational and interpersonal skills.
@@ -354,10 +354,10 @@ function AboutUsEmployee() {
                                         <a href="#" className="flex flex-col items-center bg-slate-950 border-0 rounded-lg shadow md:flex-row md:max-w-7xl dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 p-2">
 
                                             <div className="flex flex-col justify-between p-4 leading-normal">
-                                                <h2 className='text-white md:text-7xl text-4xl font-bold'>Roshani Nakandala
+                                                <h2 className='text-white md:text-5xl text-4xl font-bold'>Roshani Nakandala
                                                 </h2>
-                                                <h3 className='text-white md:text-lg text-md font-light italic mt-4'>Human Resource Executive</h3>
-                                                <h3 className='text-white md:text-lg text-md font-light italic mt-4'>BA(Business Administration),ANDHRM</h3>
+                                                <h3 className='text-white md:text-base text-base font-light italic mt-4'>Human Resource Executive</h3>
+                                                <h3 className='text-white md:text-base text-base font-light italic mt-4'>BA(Business Administration),ANDHRM</h3>
                                                 <p className='text-white md:text-base text-sm font-normal mt-8 max-w-[100ch]'>Roshani is Highly focused, charismatic, persuasive and result driven  executive of human resources with over 10 years of experience in various industries holding various roles. Roshani specialties includes in human resource , administration,finance and banking. Roshani is a Bachelor degree in business administration at university of Bedfordshire in UK and Advanced national diploma holder in human resource management at national institutes of business management Sri Lanka. currently reading charted qualification in human resource management at charter institute of personal management Sri Lanka.</p>
                                                 <p className='text-white md:text-base text-sm font-normal mt-8 max-w-[100ch]'>
                                                 Roshani considers herself as a "forever student," eager to both build on her academic foundations in human resource, and stay tune with the latest HR strategies through continued coursework and professional development
