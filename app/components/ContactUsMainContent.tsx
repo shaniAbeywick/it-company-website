@@ -99,7 +99,7 @@ function ContactUsMainContent() {
                             <p className="mt-2 text-xs text-black dark:text-gray-400">Please note that all fields marked with an asterisk (*) are required.</p>
 
 
-                            <ReCAPTCHA sitekey='6Ldy_l8pAAAAAEOKj5VylpP6dNrhPx6_KP63VwMx' onChange={(value) => setCaptcha(value)} />
+                            <ReCAPTCHA sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY !} onChange={(value) => setCaptcha(value)} />
 
 
                             <button type="submit" className="w-full text-white bg-blue-300 hover:bg-blue-300 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-lg px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" disabled={!captcha}>Submit</button>
