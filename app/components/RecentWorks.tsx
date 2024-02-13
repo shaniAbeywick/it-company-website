@@ -22,9 +22,9 @@ function RecentWorks() {
                 {/* <p className='sm:text-base text-sm font-normal text-gray-500 text-center mx-auto max-w-[60ch] mt-6 mb-16'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolore obcaecati Laudantium dolore obcaecati.</p> */}
                 {/* cards of recent work section */}
                 <div className="grid md:grid-cols-3 grid-cols-1 gap-8 justify-items-center">
-                    <div className="relative w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 overflow-hidden recentWorksCard hover:border-blue-300 hover:border-4">
+                    <div className="relative w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 overflow-hidden recentWorksCard2 hover:border-blue-300 hover:border-4">
                         <a href="https://www.infogate.lk/">
-                        <Image src="/images/infogate.lk.png" alt='recentWorkImg' width={744} height={400} className="absolute object-cover recentWorkImg" />
+                        <Image src="/images/infogate.lk.png" alt='recentWorkImg' width={744} height={400} className="absolute object-cover recentWorkImg2" />
                         </a>
                     </div>
                     <div className="relative w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 overflow-hidden recentWorksCard1 hover:border-blue-300 hover:border-4">
