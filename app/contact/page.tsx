@@ -10,19 +10,19 @@ import { useEffect } from 'react';
 
 function page() {
   
-  useEffect(() => {
-    // Add event listener to the entire document
-    document.addEventListener('contextmenu',handlecontextmenu)
+  // useEffect(() => {
+  //   // Add event listener to the entire document
+  //   document.addEventListener('contextmenu',handlecontextmenu)
 
-    // Cleanup function to remove the event listener when the component unmounts
-    return () => {
-      document.removeEventListener('contextmenu', handlecontextmenu);
-    };
-  }, []); // Empty dependency array ensures this effect runs only once
-  const handlecontextmenu=(e: { preventDefault: () => void; })=>{
-    e.preventDefault()
+  //   // Cleanup function to remove the event listener when the component unmounts
+  //   return () => {
+  //     document.removeEventListener('contextmenu', handlecontextmenu);
+  //   };
+  // }, []); // Empty dependency array ensures this effect runs only once
+  // const handlecontextmenu=(e: { preventDefault: () => void; })=>{
+  //   e.preventDefault()
     
-  }
+  // }
   return (
     <main className='overflow-hidden'>
         {/* <Banner/> */}
