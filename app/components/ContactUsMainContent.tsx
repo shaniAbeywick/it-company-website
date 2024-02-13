@@ -61,21 +61,12 @@ function ContactUsMainContent() {
     const handleFormSubmit = (event: FormEvent) => {
         handleSubmit(event);
         sendMail(event);
-      };
+    };
 
     return (
         <div className='bg-neutral-100'>
             <div className='lg:container py-28 sm:p-10 p-4'>
-                {/* Notification */}
-                {showNotification && (
-                                <div className="flex items-center p-4 mb-4 text-sm text-green-800 border border-green-300 rounded-lg bg-green-50 dark:bg-gray-800 dark:text-green-400 dark:border-green-800" role="alert">
 
-                                    <span className="sr-only">Info</span>
-                                    <div>
-                                        <span className="font-medium">✨Thank you for reaching out to us. Your message has been successfully sent and we will get back to you as soon as possible. 🚀 </span>
-                                    </div>
-                                </div>
-                            )}
                 <div className="flex lg:flex-row flex-col gap-40">
 
                     {/* left side contact us form */}
@@ -92,7 +83,7 @@ function ContactUsMainContent() {
                             <div>
                                 <label className="block mb-2 text-base font-medium text-gray-900 dark:text-white">Work Email*</label>
                                 <input type="email" name="email" id="email" className="bg-transparent border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" placeholder="name@company.com"
-                                value={email}  onChange={(e) => { setEmail(e.target.value) }} required />
+                                    value={email} onChange={(e) => { setEmail(e.target.value) }} required />
                             </div>
                             <div>
                                 <label className="block mb-2 text-base font-medium text-gray-900 dark:text-white">Tel. No: with Country Code</label>
@@ -112,6 +103,17 @@ function ContactUsMainContent() {
 
 
                             <button type="submit" className="w-full text-white bg-blue-300 hover:bg-blue-300 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-lg px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" disabled={!captcha}>Submit</button>
+
+                            {/* Notification */}
+                            {showNotification && (
+                                <div className="flex items-center p-4 mb-4 text-sm text-green-800 border border-green-300 rounded-lg bg-green-50 dark:bg-gray-800 dark:text-green-400 dark:border-green-800" role="alert">
+
+                                    <span className="sr-only">Info</span>
+                                    <div>
+                                        <span className="font-medium">✨Thank you for reaching out to us. Your message has been successfully sent and we will get back to you as soon as possible. 🚀 </span>
+                                    </div>
+                                </div>
+                            )}
 
 
 
