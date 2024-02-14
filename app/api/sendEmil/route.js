@@ -3,9 +3,9 @@ import nodemailer from 'nodemailer'
 
 export async function POST(request) {
     try {
-        console.log("from Email",process.env.fromEmail); 
-        console.log("Password",process.env.password); 
-        console.log("to Email",process.env.toEmail); 
+        console.log("from Email",process.env.NEXT_PUBLIC_FROM_EMAIL); 
+        console.log("Password",process.env.NEXT_PUBLIC_PASSWORD); 
+        console.log("to Email",process.env.NEXT_PUBLIC_TO_EMAIL); 
         const { name,email,phone,message } = await request.json();
 
         const transporter = nodemailer.createTransport({
@@ -13,14 +13,14 @@ export async function POST(request) {
             port: 465,
             secure: true,
             auth: {
-                user:process.env.fromEmail,
-                pass:process.env.password,
+                user:process.env.NEXT_PUBLIC_FROM_EMAIL,
+                pass:process.env.NEXT_PUBLIC_PASSWORD,
             }
         })
         
         const mailOption = {
-            from:process.env.fromEmail,
-            to: process.env.toEmail,
+            from:process.env.NEXT_PUBLIC_FROM_EMAIL,
+            to: process.env.NEXT_PUBLIC_TO_EMAIL,
             subject: "Contact Us",
             html: `
         
