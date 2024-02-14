@@ -100,11 +100,8 @@ function ContactUsMainContent() {
 
 
                             <ReCAPTCHA sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY !} onChange={(value) => setCaptcha(value)} />
-
-
-                            <button type="submit" className="w-full text-white bg-blue-300 hover:bg-blue-300 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-lg px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" disabled={!captcha}>Submit</button>
-
-                            {/* Notification */}
+                             
+                             {/* Notification */}
                             {showNotification && (
                                 <div className="flex items-center p-4 mb-4 text-sm text-green-800 border border-green-300 rounded-lg bg-green-50 dark:bg-gray-800 dark:text-green-400 dark:border-green-800" role="alert">
 
@@ -114,6 +111,10 @@ function ContactUsMainContent() {
                                     </div>
                                 </div>
                             )}
+
+                            <button type="submit" className="w-full text-white bg-blue-300 hover:bg-blue-300 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-lg px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" disabled={!captcha}>Submit</button>
+
+                            
 
 
 

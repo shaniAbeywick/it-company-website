@@ -1,21 +1,21 @@
 'use client';
 import React from 'react'
-import { FormEvent, useState} from 'react';
+import { FormEvent, useState } from 'react';
 import ReCAPTCHA from 'react-google-recaptcha'
 
 
 
 function Contact() {
     const [captcha, setCaptcha] = useState<string | null>(null);
-    
-   
+
+
 
 
     const handleSubmit = (event: FormEvent) => {
         event.preventDefault();
         console.log(captcha)
         if (captcha) {
-            
+
             console.log('ReCAPTCHA Verified!')
         }
     }
@@ -53,7 +53,7 @@ function Contact() {
             setPhone('');
             setMessage('');
 
-           
+
 
             // Show notification
             setShowNotification(true);
@@ -70,7 +70,7 @@ function Contact() {
     const handleFormSubmit = (event: FormEvent) => {
         handleSubmit(event);
         sendMail(event);
-      };
+    };
     return (
         <div className="bg-neutral-100">
             <div className="lg:container p-10 py-28">
@@ -93,16 +93,7 @@ function Contact() {
                     <div id="default-modal" aria-hidden="true" className="hidden bg-black-100 bg-opacity-80 overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
 
                         <div className="relative p-4 w-full max-w-2xl max-h-full">
-                            {/* Notification */}
-                            {showNotification && (
-                                <div className="flex items-center p-4 mb-4 text-sm text-green-800 border border-green-300 rounded-lg bg-green-50 dark:bg-gray-800 dark:text-green-400 dark:border-green-800" role="alert">
 
-                                    <span className="sr-only">Info</span>
-                                    <div>
-                                        <span className="font-medium">✨Thank you for reaching out to us. Your message has been successfully sent and we will get back to you as soon as possible. 🚀 </span>
-                                    </div>
-                                </div>
-                            )}
 
                             <div className="relative bg-white rounded-lg shadow dark:bg-gray-700">
                                 <div className="p-4 md:p-5 border-0 rounded-t dark:border-gray-600">
@@ -153,9 +144,20 @@ function Contact() {
                                         <p className="mt-2 text-xs text-black dark:text-gray-400">Please note that all fields marked with an asterisk (*) are required.</p>
 
                                         {/* google recaptcha  */}
-                                        <ReCAPTCHA sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY !} className='mx-auto' onChange={(value) => setCaptcha(value)} />
+                                        <ReCAPTCHA sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY!} className='mx-auto' onChange={(value) => setCaptcha(value)} />
+                                        {/* Notification */}
+                                        {showNotification && (
+                                            <div className="flex items-center p-4 mb-4 text-sm text-green-800 border border-green-300 rounded-lg bg-green-50 dark:bg-gray-800 dark:text-green-400 dark:border-green-800" role="alert">
+
+                                                <span className="sr-only">Info</span>
+                                                <div>
+                                                    <span className="font-medium">✨Thank you for reaching out to us. Your message has been successfully sent and we will get back to you as soon as possible. 🚀 </span>
+                                                </div>
+                                            </div>
+                                        )}
                                         <button type="submit" className="w-full text-white bg-blue-300 hover:bg-blue-300 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-lg px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" disabled={!captcha}>Submit</button>
 
+                                        
                                     </form>
 
 
