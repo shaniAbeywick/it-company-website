@@ -99,7 +99,7 @@ function ContactUsMainContent() {
                             <p className="mt-2 text-xs text-black dark:text-gray-400">Please note that all fields marked with an asterisk (*) are required.</p>
 
 
-                            <ReCAPTCHA sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY !} onChange={(value) => setCaptcha(value)} />
+                            {/* <ReCAPTCHA sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY !} onChange={(value) => setCaptcha(value)} /> */}
                              
                              {/* Notification */}
                             {showNotification && (
