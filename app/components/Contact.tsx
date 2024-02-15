@@ -144,7 +144,7 @@ function Contact() {
                                         <p className="mt-2 text-xs text-black dark:text-gray-400">Please note that all fields marked with an asterisk (*) are required.</p>
 
                                         {/* google recaptcha  */}
-                                        {/* <ReCAPTCHA sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY!} className='mx-auto' onChange={(value) => setCaptcha(value)} /> */}
+                                        <ReCAPTCHA sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY!} className='mx-auto' onChange={(value) => setCaptcha(value)} /> 
                                         {/* Notification */}
                                         {showNotification && (
                                             <div className="flex items-center p-4 mb-4 text-sm text-green-800 border border-green-300 rounded-lg bg-green-50 dark:bg-gray-800 dark:text-green-400 dark:border-green-800" role="alert">
