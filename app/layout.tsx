@@ -6,8 +6,12 @@ import { Metadata } from 'next';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  
-  title:"CDAZZDEV",
+
+  title: {
+    default: "CDAZZDEV",
+    template: "%s | CDAZZDEV"
+  }
+  ,
   description: "Unlock tomorrow's potential with CDAZZDEV's cutting-edge software solutions. Empowering innovation for a brighter future",
   applicationName: 'CDAZZDEV',
   keywords: [
@@ -33,19 +37,19 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title:"CDAZZDEV",
-    description:"Unlock tomorrow's potential with CDAZZDEV's cutting-edge software solutions. Empowering innovation for a brighter future",
-    url:"https://cdazzdev.com/",
-    siteName:"CDAZZDEV",
-    type:"website",
+    title: "CDAZZDEV",
+    description: "Unlock tomorrow's potential with CDAZZDEV's cutting-edge software solutions. Empowering innovation for a brighter future",
+    url: "https://cdazzdev.com/",
+    siteName: "CDAZZDEV",
+    type: "website",
 
   },
   twitter: {
-    title:"CDAZZDEV",
-    description:"Unlock tomorrow's potential with CDAZZDEV's cutting-edge software solutions. Empowering innovation for a brighter future",
-    site:"CDAZZDEV",
-    card:"summary_large_image",
-    
+    title: "CDAZZDEV",
+    description: "Unlock tomorrow's potential with CDAZZDEV's cutting-edge software solutions. Empowering innovation for a brighter future",
+    site: "CDAZZDEV",
+    card: "summary_large_image",
+
 
   },
 };
