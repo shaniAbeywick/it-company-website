@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   creator: 'Jiachi Liu',
   publisher: 'Sebastian Markbåge',
   alternates: {
-    canonical: 'https://cdazzdev.com/',
+    canonical: 'https://cdazzdev.com',
     languages: {
       'en-US': '/en-US',
     },
