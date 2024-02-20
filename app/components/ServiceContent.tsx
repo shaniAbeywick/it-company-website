@@ -277,6 +277,94 @@ function ServiceContent() {
             <Image src="/images/emily-bernal-v9vII5gV8Lw-unsplash.jpg" alt='serviceImg' width={960} height={540} className="w-full h-full" />
           </div>
         </div>
+        <div id="scylla_ai" className='flex flex-row'>
+        <div className='flex-1 lg:block hidden'>
+          <Image src="/images/scylla.jpg" alt='serviceImg' width={960} height={540} className="w-full h-full " />
+          </div>
+
+          <div className="py-20 bg-orange-100 border-0 rounded-0 shadow-none dark:bg-gray-800 dark:border-gray-700 flex-1 px-8 lg:px-0">
+            <h1 className='lg:text-5xl text-4xl text-black-100 font-extrabold lg:mx-20'>Scylla AI</h1>
+            {/* <h3 className='lg:text-xl text-lg text-black-100 text-opacity-75 font-semibold my-4 lg:mx-20'>Utilising data driven tactics to deliver high return on investment from your performance marketing budget.</h3> */}
+            <ul className="space-y-2 mt-4 text-black-100 text-opacity-70 list-disc list-outside dark:text-gray-400 lg:text-lg text-base font-normal lg:mx-20">
+              <li className=''>
+              Scylla gun detection system
+              </li>
+              <li>
+              Intrusion detection and perimeter protection
+              </li>
+              <li>
+              Object detection and tracking
+              </li>
+              <li>
+              Anomaly detection and behavior recognition
+              </li>
+              <li>
+              Drone Security
+              </li>
+              <li>
+              Face Recognition - Watchlist
+              </li>
+              <li>
+              False Alarm Filtering
+              </li>
+              <li>
+              Face recognition - Auto - Enrollment
+              </li>
+              <li>
+              Traffic flow analysis
+              </li>
+              <li>
+              Smoke & fire detection
+              </li>
+              <li>
+              Access control
+              </li>
+            </ul>
+            <a href="/contact" className="lg:mx-20 mt-10 inline-flex items-center px-8 py-4 lg:text-xl text-lg font-medium text-center text-white bg-blue-300 rounded-md hover:bg-blue-300 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 shadow-lg shadow-neutral-400">
+              Get in Touch
+
+            </a>
+          </div>
+        </div>        
+        <div id="supermicro" className='flex flex-row'>
+          <div className="py-20 bg-white border-0 rounded-0 shadow-none dark:bg-gray-800 dark:border-gray-700 flex-1 px-8 lg:px-0">
+            <h1 className='lg:text-5xl text-4xl text-black-100 font-extrabold lg:mx-20'>Supermicro Servers</h1>
+            {/* <h3 className='lg:text-xl text-lg text-black-100 text-opacity-75 font-semibold my-4 lg:mx-20'>Utilising data driven tactics to deliver high return on investment from your performance marketing budget.</h3> */}
+            <ul className="space-y-2 mt-4 text-black-100 text-opacity-70 list-disc list-outside dark:text-gray-400 lg:text-lg text-base font-normal lg:mx-20">
+              <li className=''>
+              Rackmount Servers
+              </li>
+              <li>
+              GPU Servers
+              </li>
+              <li>
+              Twin Servers
+              </li>
+              <li>
+              Blade Servers
+              </li>
+              <li>
+              Storage Servers
+              </li>
+              <li>
+              Rack Integration Services
+              </li>
+              <li>
+              Liquid Cooling
+              </li>
+              <li>
+              System Management Software
+              </li>
+            </ul>
+            <a href="/contact" className="lg:mx-20 mt-10 inline-flex items-center px-8 py-4 lg:text-xl text-lg font-medium text-center text-white bg-blue-300 rounded-md hover:bg-blue-300 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 shadow-lg shadow-neutral-400">
+              Get in Touch
+
+            </a>
+          </div>
+          <div className='flex-1 lg:block hidden'>
+            <Image src="/images/supermicro.jpg" alt='serviceImg' width={960} height={540} className="w-full h-full" />
+          </div>
+        </div>
       </div>
 
     </div>

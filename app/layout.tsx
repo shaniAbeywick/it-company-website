@@ -6,16 +6,14 @@ import { Metadata } from 'next';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-
   title: {
-    default: "CDAZZDEV",
-    template: "%s | CDAZZDEV"
-  }
-  ,
-  description: "Unlock tomorrow's potential with CDAZZDEV's cutting-edge software solutions. Empowering innovation for a brighter future",
-  applicationName: 'CDAZZDEV',
+    default: "cdazzdev",
+    template: "%s | cdazzdev"
+  },
+  description: "Unlock tomorrow's potential with cdazzdev's cutting-edge software solutions. Empowering innovation for a brighter future",
+  applicationName: 'cdazzdev.com',
   keywords: [
-    "CdazzDev",
+    "cdazzdev",
     "solutions",
     "development services",
     "app development",
@@ -27,9 +25,8 @@ export const metadata: Metadata = {
     "development",
     "web app development",
   ],
-  authors: [{ name: 'Seb' }, { name: 'Josh', url: 'https://nextjs.org' }],
-  creator: 'Jiachi Liu',
-  publisher: 'Sebastian Markbåge',
+  authors: { name: 'cdazzdev' },
+  creator: 'Shani Abeywickrama',
   alternates: {
     canonical: 'https://cdazzdev.com',
     languages: {
@@ -37,17 +34,17 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "CDAZZDEV",
-    description: "Unlock tomorrow's potential with CDAZZDEV's cutting-edge software solutions. Empowering innovation for a brighter future",
+    title: "cdazzdev.com",
+    description: "Unlock tomorrow's potential with cdazzdev's cutting-edge software solutions. Empowering innovation for a brighter future",
     url: "https://cdazzdev.com/",
-    siteName: "CDAZZDEV",
+    siteName: "cdazzdev.com",
     type: "website",
 
   },
   twitter: {
-    title: "CDAZZDEV",
-    description: "Unlock tomorrow's potential with CDAZZDEV's cutting-edge software solutions. Empowering innovation for a brighter future",
-    site: "CDAZZDEV",
+    title: "cdazzdev.com",
+    description: "Unlock tomorrow's potential with cdazzdev's cutting-edge software solutions. Empowering innovation for a brighter future",
+    site: "cdazzdev.com",
     card: "summary_large_image",
 
 
